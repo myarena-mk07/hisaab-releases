@@ -1,0 +1,55 @@
+# Watches the Microsoft Store listing of Hisaab (Store ID 9N1H7HS7HP7X) every 30 minutes.
+# When the product answers in the Store, the job opens ONE issue "Hisaab is live in the Microsoft Store"
+# (GitHub sends the owner an e-mail) and writes docs/store-status.json. After that it only updates the status file.
+name: Store watch
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: store-watch
+  cancel-in-progress: false
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the Store
+        id: check
+        run: |
+          live=no; markets=""
+          for m in IN US; do
+            code=$(curl -s -o /tmp/p.json -w "%{http_code}" "https://storeedgefd.dsx.mp.microsoft.com/v9.0/products/9N1H7HS7HP7X?market=$m&locale=en-$m&deviceFamily=Windows.Desktop")
+            echo "$m: $code"
+            if [ "$code" = "200" ]; then live=yes; markets="$markets $m"; fi
+          done
+          echo "live=$live" >> "$GITHUB_OUTPUT"
+          echo "markets=$markets" >> "$GITHUB_OUTPUT"
+          now=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          mkdir -p docs
+          prev=$(cat docs/store-status.json 2>/dev/null || echo '{}')
+          first=$(echo "$prev" | python3 -c "import json,sys;print(json.load(sys.stdin).get('firstLive',''))")
+          if [ "$live" = "yes" ] && [ -z "$first" ]; then first=$now; fi
+          printf '{"storeId":"9N1H7HS7HP7X","live":%s,"markets":"%s","checked":"%s","firstLive":"%s"}\n' "$([ $live = yes ] && echo true || echo false)" "${markets# }" "$now" "$first" > docs/store-status.json
+          cat docs/store-status.json
+      - name: Save the status (only when it changes)
+        run: |
+          git config user.name "store-watch"; git config user.email "store-watch@users.noreply.github.com"
+          if ! git diff --quiet -- docs/store-status.json; then
+            old=$(git show HEAD:docs/store-status.json 2>/dev/null | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('live'),d.get('markets'))" 2>/dev/null || echo none)
+            new=$(python3 -c "import json;d=json.load(open('docs/store-status.json'));print(d.get('live'),d.get('markets'))")
+            if [ "$old" != "$new" ]; then git add docs/store-status.json && git commit -q -m "Store status: $new" && git push -q; fi
+          fi
+      - name: Tell the owner once
+        if: steps.check.outputs.live == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh issue list --state all --search "Hisaab is live in the Microsoft Store in:title" --json number -q 'length')
+          if [ "$n" = "0" ]; then
+            gh issue create --title "Hisaab is live in the Microsoft Store" --body "The Store answers for Hisaab (markets:${{ steps.check.outputs.markets }}). Link: https://apps.microsoft.com/detail/9N1H7HS7HP7X — checked by the Store watch workflow."
+          fi
