@@ -39,7 +39,7 @@ jobs:
       - name: Save the status (only when it changes)
         run: |
           git config user.name "store-watch"; git config user.email "store-watch@users.noreply.github.com"
-          if ! git diff --quiet -- docs/store-status.json; then
+          if [ -n "$(git status --porcelain -- docs/store-status.json)" ]; then
             old=$(git show HEAD:docs/store-status.json 2>/dev/null | python3 -c "import json,sys;d=json.load(sys.stdin);print(d.get('live'),d.get('markets'))" 2>/dev/null || echo none)
             new=$(python3 -c "import json;d=json.load(open('docs/store-status.json'));print(d.get('live'),d.get('markets'))")
             if [ "$old" != "$new" ]; then git add docs/store-status.json && git commit -q -m "Store status: $new" && git push -q; fi
