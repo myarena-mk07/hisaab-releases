@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hisaab Privacy Policy</title>
+<meta name="description" content="Privacy policy of Hisaab, the accounting app for Windows by NEXER_TECH.">
+<style>
+  :root { --bg: #ffffff; --fg: #1d2230; --muted: #5b6475; --line: #e3e6ec; --accent: #1d4f80; --box: #f5f7fa; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #14171c; --fg: #e6e8ec; --muted: #a3abba; --line: #2c323c; --accent: #8ab4ff; --box: #1b1f26; } }
+  html { background: var(--bg); }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; color: var(--accent); }
+  h2 { font-size: 20px; margin: 32px 0 8px; border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+  p, li { margin: 6px 0; }
+  .meta { color: var(--muted); font-size: 14px; }
+  .box { background: var(--box); border: 1px solid var(--line); border-radius: 8px; padding: 12px 16px; margin: 16px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; }
+  th, td { text-align: left; border-bottom: 1px solid var(--line); padding: 6px 8px; vertical-align: top; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<h1>Hisaab Privacy Policy</h1>
+<p class="meta">Publisher: NEXER_TECH · Last updated: 4 November 2026 · Contact: <a href="mailto:info@nexertechnology.com">info@nexertechnology.com</a></p>
+
+<div class="box">
+  <b>In short:</b> Hisaab keeps your books on your own PC. You need no account. Hisaab sends no telemetry and no
+  analytics. NEXER_TECH runs no server for Hisaab and receives none of your data. Your data leaves your PC only
+  through an online service that you set up yourself, and only to that service.
+</div>
+
+<h2>1. What Hisaab is</h2>
+<p>Hisaab is an accounting, inventory, GST and payroll program for Windows. This policy applies to the Hisaab app
+from the Microsoft Store and to the Hisaab setup file from our releases page.</p>
+
+<h2>2. Where your data is</h2>
+<ul>
+  <li>Your books (companies, ledgers, vouchers, stock, payroll, users) stay on your PC, in
+    <code>Documents\Hisaab\Data</code>: one SQLite file for each company. You can select another folder.</li>
+  <li>Backups go to the folder that you select (for example <code>Documents\Hisaab\backups</code>).</li>
+  <li>Passwords of Hisaab users are stored as one-way hashes (argon2id). Keys, tokens and passwords of the online
+    services that you set up are stored encrypted on your PC.</li>
+  <li>When you turn on Hisaab Vault for a company, Hisaab encrypts that company with your password.</li>
+</ul>
+
+<h2>3. What we collect</h2>
+<p>Nothing. Hisaab has no account, no sign-in to NEXER_TECH, no telemetry, no analytics, no advertising and no
+tracking. NEXER_TECH does not run a server for Hisaab and does not receive your books or any information about
+how you use Hisaab.</p>
+
+<h2>4. When data leaves your PC</h2>
+<p>Only when you set up and use one of the services below. Then Hisaab sends the data that the service needs,
+directly from your PC to that service, with your own account at that service. The policy of that service
+applies to the data that it receives.</p>
+<table>
+  <tr><th>Service that you set up</th><th>What goes there</th></tr>
+  <tr><td>Backup to your own Google Drive or OneDrive (Hisaab Drive), or to a synced cloud folder</td><td>The backup file, encrypted on your PC before it leaves (AES-256-GCM, your backup password). The cloud cannot read it.</td></tr>
+  <tr><td>E-mail (your SMTP server, Gmail or Microsoft 365)</td><td>The e-mails that you send, with their PDF or Excel attachments.</td></tr>
+  <tr><td>GST portal, e-Invoice (IRP) and e-Way Bill, directly or through your GST Suvidha Provider</td><td>The returns, invoices and e-way bills that you upload, and the requests that you make.</td></tr>
+  <tr><td>Your bank (Connected Banking) or an Account Aggregator</td><td>The requests for balances and statements, and the payments that you approve.</td></tr>
+  <tr><td>Payment gateways (Razorpay, PayU, Cashfree)</td><td>The payment links that you make: amount, invoice number and the customer details that you enter.</td></tr>
+  <tr><td>WhatsApp (your own WhatsApp Business account)</td><td>The messages and PDFs that you send. The Windows share window sends only what you select, through the app that you select.</td></tr>
+  <tr><td>Remote access through a relay</td><td>The relay forwards only encrypted data between your office PC and the remote user (end-to-end encrypted; the relay cannot read it).</td></tr>
+  <tr><td>Branch sync with your other Hisaab server</td><td>The changes of the company, signed and encrypted with your sync key, to your own other server.</td></tr>
+  <tr><td>AI reading in Hisaab Docs (optional, off by default)</td><td>When you turn it on with your own key, the document that you give Hisaab Docs goes to Anthropic for reading. Without it, Hisaab reads documents on your PC.</td></tr>
+  <tr><td>Switch from Tally</td><td>Nothing leaves your PC or office network: Hisaab reads the companies from your own Tally.</td></tr>
+</table>
+
+<h2>5. Updates</h2>
+<p>The Microsoft Store installs the updates of the Store copy. The setup-file copy checks our public releases page
+on GitHub for a new version; that check sends no data about you or your books.</p>
+
+<h2>6. Your control</h2>
+<ul>
+  <li>You can turn off or remove every online service in Hisaab Services at any time.</li>
+  <li>You can delete your data: delete the company in Hisaab, or delete the folder <code>Documents\Hisaab</code>.
+    Removing the app does not delete your books, so that you do not lose them by mistake.</li>
+  <li>Requests about data at a service that you set up go to that service.</li>
+</ul>
+
+<h2>7. Children</h2>
+<p>Hisaab is a business program. It is not made for children and collects no data from anyone.</p>
+
+<h2>8. Changes</h2>
+<p>When this policy changes, we update this page and the date at the top.</p>
+
+<h2>9. Contact</h2>
+<p>NEXER_TECH · <a href="mailto:info@nexertechnology.com">info@nexertechnology.com</a></p>
+</main>
+</body>
+</html>
