@@ -39,7 +39,7 @@ th,td{text-align:left;border-bottom:1px solid var(--line);padding:6px 8px;vertic
 <p class="sub">Hisaab 1.0.2 for Windows 10 and 11 (64-bit) · the setup file · by NEXER_TECH</p>
 
 <div class="card">
-<b>In short:</b> download <code>Hisaab_1.0.2_x64-setup.exe</code>, open it, click <i>More info</i> and <i>Run anyway</i> in the blue Windows window, then click <i>Install</i>. You need no administrator password. Your books stay on your PC in <code>Documents\Hisaab</code>.
+<b>In short:</b> download <code>Hisaab_1.0.3_x64-setup.exe</code>, open it, click <i>More info</i> and <i>Run anyway</i> in the blue Windows window, then click <i>Next</i> two times. You need no administrator password. Your books stay on your PC in <code>Documents\Hisaab</code>.
 </div>
 
 <ol class="toc">
@@ -65,17 +65,17 @@ th,td{text-align:left;border-bottom:1px solid var(--line);padding:6px 8px;vertic
 <h2 id="download"><span class="n">2</span>Download</h2>
 <ol>
 <li>Open the releases page:<br><a class="btn" href="https://github.com/myarena-mk07/hisaab-releases/releases/latest">Hisaab releases page</a></li>
-<li>Under <b>Assets</b>, click <code>Hisaab_1.0.2_x64-setup.exe</code> (about 47 MB). Do not take the other files: <code>.sig</code> and <code>latest.json</code> are for the updates, <code>.msix</code> is the Microsoft Store package.</li>
-<li>The browser can show "<i>… isn't commonly downloaded</i>". Click <b>…</b> (more actions) &gt; <b>Keep</b> &gt; <b>Show more</b> &gt; <b>Keep anyway</b>.</li>
+<li>Under <b>Assets</b>, click <code>Hisaab_1.0.3_x64-setup.exe</code> (about 49 MB). Do not take the other files: <code>.sig</code> and <code>latest.json</code> are for the updates, <code>.msix</code> is the Microsoft Store package.</li>
+<li>The browser can show "<i>… isn't commonly downloaded</i>". Point to the file in the download list and click <b>…</b> (more actions) &gt; <b>Keep</b>. When the browser asks again ("<i>Make sure you trust …</i>"), click the small arrow next to <b>Delete</b> &gt; <b>Keep anyway</b>.</li>
 </ol>
-<figure><img onerror="this.closest('figure').remove()" src="img/install-1-assets.png" alt="the Assets list of the release with Hisaab_1.0.2_x64-setup.exe"><figcaption>Picture 1: the Assets list. The file to click is <code>Hisaab_1.0.2_x64-setup.exe</code>.</figcaption></figure>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-1-assets.png" alt="the Assets list of the release with Hisaab_1.0.3_x64-setup.exe"><figcaption>Picture 1: the Assets list. The file to click is <code>Hisaab_1.0.3_x64-setup.exe</code>.</figcaption></figure>
 <figure><img onerror="this.closest('figure').remove()" src="img/install-2-keep.png" alt="the browser download warning with Keep anyway"><figcaption>Picture 2: the download warning of the browser, <i>Keep anyway</i>.</figcaption></figure>
 
 <h2 id="smartscreen"><span class="n">3</span>"Windows protected your PC"</h2>
 <p>When you open the setup file, Windows can show a blue window with the title <b>Windows protected your PC</b>.</p>
 <ol>
 <li>Click <b>More info</b>.</li>
-<li>Check the line <i>App: Hisaab_1.0.2_x64-setup.exe</i>.</li>
+<li>Check the line <i>App: Hisaab_1.0.3_x64-setup.exe</i>.</li>
 <li>Click <b>Run anyway</b>.</li>
 </ol>
 <div class="card warn"><b>Why Windows shows this window:</b> the setup file is not signed yet with a paid code-signing certificate, so Windows does not know the publisher ("Unknown publisher"). The file itself is safe: each update of Hisaab has its own signature, and Hisaab installs an update only when that signature is valid. When the certificate comes, this window goes away.</div>
@@ -84,7 +84,7 @@ th,td{text-align:left;border-bottom:1px solid var(--line);padding:6px 8px;vertic
 
 <h2 id="install"><span class="n">4</span>Install</h2>
 <ol>
-<li>The Hisaab setup opens. Click <b>Next</b>, then <b>Install</b>. No administrator window comes: Hisaab installs for the current user only, into <code>C:\Users\&lt;you&gt;\AppData\Local\Hisaab</code>.</li>
+<li>The Hisaab setup opens. Click <b>Next</b>, then <b>Next</b> again. If Hisaab is already on the PC, the setup asks what to do with it: keep the choice <i>Uninstall before installing</i> and click <b>Next</b>; your companies stay. No administrator window comes: Hisaab installs for the current user only, into <code>C:\Users\&lt;you&gt;\AppData\Local\Hisaab</code>.</li>
 <li>When Microsoft Edge WebView2 is not on the PC, the setup installs it (Windows 10 and 11 have it in most cases).</li>
 <li>Click <b>Finish</b>. Hisaab starts. Later, open Hisaab from the Start menu.</li>
 </ol>
