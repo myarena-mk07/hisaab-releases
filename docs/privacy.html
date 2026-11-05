@@ -40,7 +40,8 @@ from the Microsoft Store and to the Hisaab setup file from our releases page.</p
 <ul>
   <li>Your books (companies, ledgers, vouchers, stock, payroll, users) stay on your PC, in
     <code>Documents\Hisaab\Data</code>: one SQLite file for each company. You can select another folder.</li>
-  <li>Backups go to the folder that you select (for example <code>Documents\Hisaab\backups</code>).</li>
+  <li>Hisaab makes a daily backup of each company in <code>Documents\Hisaab\backups</code>. Other backups go to the folder that you select.</li>
+  <li>Hisaab writes a log of its errors on your PC (<code>%APPDATA%\Hisaab\logs</code>). The log and the backups stay on your PC.</li>
   <li>Passwords of Hisaab users are stored as one-way hashes (argon2id). Keys, tokens and passwords of the online
     services that you set up are stored encrypted on your PC.</li>
   <li>When you turn on Hisaab Vault for a company, Hisaab encrypts that company with your password.</li>
@@ -67,6 +68,7 @@ applies to the data that it receives.</p>
   <tr><td>Branch sync with your other Hisaab server</td><td>The changes of the company, signed and encrypted with your sync key, to your own other server.</td></tr>
   <tr><td>AI reading in Hisaab Docs (optional, off by default)</td><td>When you turn it on with your own key, the document that you give Hisaab Docs goes to Anthropic for reading. Without it, Hisaab reads documents on your PC.</td></tr>
   <tr><td>Switch from Tally</td><td>Nothing leaves your PC or office network: Hisaab reads the companies from your own Tally.</td></tr>
+  <tr><td>A support file that you send to us (F1 &gt; Troubleshooting &gt; Save a Support File)</td><td>Hisaab makes the file on your Desktop and sends nothing. When you attach it to an e-mail to us, we receive the error log, the versions and the settings without passwords; company data only when you tick it. We use it only to help you.</td></tr>
 </table>
 
 <h2>5. Updates</h2>

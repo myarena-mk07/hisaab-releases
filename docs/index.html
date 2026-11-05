@@ -4,23 +4,62 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hisaab</title>
+<meta name="description" content="Hisaab: accounting, inventory, GST and payroll for Indian businesses. Your books stay on your PC.">
 <style>
-:root{--bg:#f6f7f9;--ink:#1d1d1f;--mute:#5f6368;--card:#fff;--line:#dfe1e5;--accent:#1d4ed8}
-@media (prefers-color-scheme:dark){:root{--bg:#121316;--ink:#eceef1;--mute:#a3a7ad;--card:#1c1e22;--line:#30333a;--accent:#8ab4ff}}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
-main{max-width:720px;margin:0 auto;padding:40px 16px}
-h1{font-size:34px;margin:0 0 4px}.sub{color:var(--mute);margin:0 0 28px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin:0 0 14px}
-a{color:var(--accent)}ul{margin:6px 0 0;padding-left:20px}
+:root{--bg:#f6f7f9;--ink:#1d1d1f;--mute:#5f6368;--card:#fff;--line:#dfe1e5;--accent:#1d4ed8;--accentbg:#e8efff;--warnbg:#fff7e6;--warn:#8a5a00}
+@media (prefers-color-scheme:dark){:root{--bg:#121316;--ink:#eceef1;--mute:#a3a7ad;--card:#1c1e22;--line:#30333a;--accent:#8ab4ff;--accentbg:#1a2540;--warnbg:#2a2210;--warn:#f0c36d}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:960px;margin:0 auto;padding:36px 16px 64px}
+h1{font-size:38px;margin:0}.sub{color:var(--mute);margin:4px 0 26px;font-size:18px}
+h2{font-size:22px;margin:0 0 12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;margin:0 0 18px}
+.dl{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;padding:14px 22px;border-radius:10px;font-size:18px}
+@media (prefers-color-scheme:dark){.dl{color:#0b1220}}
+a{color:var(--accent)}.row{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px}
+video{width:100%;border-radius:10px;background:#000}.note{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:10px 14px;font-size:15px}
+ol{margin:6px 0 0;padding-left:22px}li{margin:4px 0}.small{color:var(--mute);font-size:14px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.chip{background:var(--accentbg);border-radius:999px;padding:4px 12px;font-size:14px}
 </style>
 </head>
 <body><main>
 <h1>Hisaab</h1>
-<p class="sub">Accounting, inventory, GST and payroll for Indian businesses · by NEXER_TECH</p>
-<div class="card"><b>Your books stay on your PC.</b> Hisaab needs no account and sends no data to us. Each company is one file in Documents\Hisaab\Data.</div>
-<div class="card"><b>Get Hisaab</b><ul>
-<li>Microsoft Store: <a href="https://apps.microsoft.com/detail/9N1H7HS7HP7X">apps.microsoft.com/detail/9N1H7HS7HP7X</a> (available after Microsoft's review)</li>
-<li>Setup file: <a href="https://github.com/myarena-mk07/hisaab-releases/releases">releases page</a></li></ul></div>
-<div class="card"><b>Privacy</b>: <a href="privacy.html">Hisaab Privacy Policy</a></div>
-<div class="card"><b>Support</b>: <a href="mailto:info@nexertechnology.com">info@nexertechnology.com</a></div>
+<p class="sub">Accounting, inventory, GST and payroll for Indian businesses · free · by NEXER_TECH</p>
+
+<div class="card">
+<h2>⬇️ Download for Windows 10 and 11</h2>
+<p><a class="dl" href="https://github.com/myarena-mk07/hisaab-releases/releases/download/v1.0.2/Hisaab_1.0.2_x64-setup.exe">Download Hisaab 1.0.2 (Windows, 64-bit)</a></p>
+<p class="note">Windows shows <b>"Windows protected your PC"</b> one time, because the file has no paid signature yet. Click <b>More info</b>, then <b>Run anyway</b>. The <a href="install.html">install guide</a> shows each step.</p>
+<p class="small">All versions and release notes: <a href="https://github.com/myarena-mk07/hisaab-releases/releases">Releases page</a>. Hisaab updates itself when a new version comes. The Microsoft Store version comes soon.</p>
+<div class="chips"><span class="chip">💻 Your books stay on your PC</span><span class="chip">🚫 No account, no tracking</span><span class="chip">🔁 One-step Switch from Tally</span><span class="chip">💾 Daily backup</span><span class="chip">🏢 Office network</span></div>
+</div>
+
+<div class="card">
+<h2>🎬 Learn Hisaab in 15 minutes</h2>
+<div class="row">
+ <div><h3>English</h3>
+  <video controls preload="metadata" poster="onboarding/en/full.png"><source src="onboarding/en/onboarding.mp4" type="video/mp4"><track kind="captions" src="onboarding/en/onboarding.en.vtt" srclang="en" label="English" default></video>
+  <p class="small">Full film, 12 min · <a href="onboarding/en/one-minute.mp4">Hisaab in one minute</a></p></div>
+ <div><h3>ગુજરાતી (Gujlish)</h3>
+  <video controls preload="metadata" poster="onboarding/gu/full.png"><source src="onboarding/gu/onboarding.mp4" type="video/mp4"><track kind="captions" src="onboarding/gu/onboarding.gu.vtt" srclang="gu" label="ગુજરાતી" default><track kind="captions" src="onboarding/gu/onboarding.gu-Latn.vtt" srclang="gu-Latn" label="Gujarati (Latin)"></video>
+  <p class="small">Full film, 16 min · <a href="onboarding/gu/one-minute.mp4">Hisaab in one minute</a></p></div>
+</div>
+<p class="small">Chapters: Welcome · Switch from Tally · The Gateway and the keys · Daily work · Reports · GST, TDS and payroll · Safe data · Help and support.</p>
+</div>
+
+<div class="card">
+<h2>🚀 Your first day</h2>
+<ol>
+ <li><b>Install</b> Hisaab with the button above (<a href="install.html">install guide</a>).</li>
+ <li><b>Switch from Tally:</b> in TallyPrime, turn on the XML port (F1 › Settings › Connectivity: Both, port 9000). In Hisaab: Import › Switch from Tally. Hisaab copies your companies and checks every balance. Tally stays as it is.</li>
+ <li><b>Work</b> with the keys you know: V for vouchers, F8 sales, Ctrl+A accept, Esc back.</li>
+ <li><b>Keep a copy outside your PC:</b> Alt+Y › Backup & Restore › F9 (Google Drive, OneDrive or a USB folder).</li>
+</ol>
+<p><a href="onboarding/Hisaab-Quick-Start.pdf">📄 Quick Start (one page, PDF)</a></p>
+</div>
+
+<div class="card">
+<h2>❓ Help</h2>
+<p>In Hisaab: <b>F1</b> opens the manual and the help for the current screen. E-mail: <a href="mailto:info@nexertechnology.com">info@nexertechnology.com</a> (F1 › Troubleshooting › Save a Support File makes a file that you can attach).</p>
+<p class="small"><a href="privacy.html">Privacy policy</a> · Hisaab keeps your books in Documents\Hisaab\Data on your PC. NEXER_TECH receives no data.</p>
+</div>
 </main></body></html>

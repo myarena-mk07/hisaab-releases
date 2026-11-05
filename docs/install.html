@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Install Hisaab</title>
+<meta name="description" content="How to install Hisaab 1.0.2 for Windows from the setup file, start it, find your data, get updates and uninstall it without losing data.">
+<style>
+:root{--bg:#f6f7f9;--ink:#1d1d1f;--mute:#5f6368;--card:#fff;--line:#dfe1e5;--accent:#1d4ed8;--warn:#8a5a00;--warnbg:#fff7e6;--ok:#1a7f37;--slot:#eef1f6}
+@media (prefers-color-scheme:dark){:root{--bg:#121316;--ink:#eceef1;--mute:#a3a7ad;--card:#1c1e22;--line:#30333a;--accent:#8ab4ff;--warn:#f0c36d;--warnbg:#2a2416;--ok:#7ee2a0;--slot:#23262c}}
+html{background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:760px;margin:0 auto;padding:36px 16px 64px}
+h1{font-size:32px;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 24px}
+h2{font-size:21px;margin:34px 0 10px;display:flex;align-items:center;gap:10px}
+h2 .n{display:inline-flex;width:30px;height:30px;border-radius:50%;background:var(--accent);color:var(--bg);font-size:16px;align-items:center;justify-content:center;flex:none}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin:10px 0}
+.warn{background:var(--warnbg);border-color:var(--warn)}
+.warn b{color:var(--warn)}
+ol,ul{margin:6px 0;padding-left:22px}
+li{margin:4px 0}
+code,kbd{font:14px/1.4 ui-monospace,Consolas,monospace;background:var(--slot);border:1px solid var(--line);border-radius:5px;padding:1px 5px;word-break:break-all}
+kbd{font-weight:600}
+a{color:var(--accent)}
+.btn{display:inline-block;background:var(--accent);color:var(--bg);text-decoration:none;font-weight:600;padding:10px 18px;border-radius:10px;margin:6px 0}
+figure{margin:12px 0;border:2px dashed var(--line);border-radius:10px;background:var(--slot);padding:10px;text-align:center}
+figure img{max-width:100%;height:auto;border-radius:6px;display:block;margin:0 auto;min-height:60px;color:var(--mute);font-size:14px}
+figcaption{color:var(--mute);font-size:14px;margin-top:6px}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;border-bottom:1px solid var(--line);padding:6px 8px;vertical-align:top}
+.toc{columns:2;column-gap:24px;padding-left:20px}
+@media (max-width:560px){.toc{columns:1}h1{font-size:26px}}
+.meta{color:var(--mute);font-size:14px}
+</style>
+</head>
+<body><main>
+<h1>Install Hisaab</h1>
+<p class="sub">Hisaab 1.0.2 for Windows 10 and 11 (64-bit) · the setup file · by NEXER_TECH</p>
+
+<div class="card">
+<b>In short:</b> download <code>Hisaab_1.0.2_x64-setup.exe</code>, open it, click <i>More info</i> and <i>Run anyway</i> in the blue Windows window, then click <i>Install</i>. You need no administrator password. Your books stay on your PC in <code>Documents\Hisaab</code>.
+</div>
+
+<ol class="toc">
+<li><a href="#before">Before you start</a></li>
+<li><a href="#download">Download</a></li>
+<li><a href="#smartscreen">"Windows protected your PC"</a></li>
+<li><a href="#install">Install</a></li>
+<li><a href="#first">First start</a></li>
+<li><a href="#data">Where your data is</a></li>
+<li><a href="#updates">How updates come</a></li>
+<li><a href="#uninstall">Uninstall (the data stays)</a></li>
+<li><a href="#support">Support</a></li>
+</ol>
+
+<h2 id="before"><span class="n">1</span>Before you start</h2>
+<ul>
+<li>A PC with Windows 10 or Windows 11, 64-bit, and about 400 MB of free disk space.</li>
+<li>You do not need an administrator password: Hisaab installs for the current Windows user only.</li>
+<li>TallyPrime can stay on the PC. Hisaab only reads Tally's data when you use <i>Switch from Tally</i>; it does not change it.</li>
+<li>Take a backup in TallyPrime first (<kbd>Alt+Y</kbd> &gt; Backup). It is good practice before every change.</li>
+</ul>
+
+<h2 id="download"><span class="n">2</span>Download</h2>
+<ol>
+<li>Open the releases page:<br><a class="btn" href="https://github.com/myarena-mk07/hisaab-releases/releases/latest">Hisaab releases page</a></li>
+<li>Under <b>Assets</b>, click <code>Hisaab_1.0.2_x64-setup.exe</code> (about 47 MB). Do not take the other files: <code>.sig</code> and <code>latest.json</code> are for the updates, <code>.msix</code> is the Microsoft Store package.</li>
+<li>The browser can show "<i>… isn't commonly downloaded</i>". Click <b>…</b> (more actions) &gt; <b>Keep</b> &gt; <b>Show more</b> &gt; <b>Keep anyway</b>.</li>
+</ol>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-1-assets.png" alt="the Assets list of the release with Hisaab_1.0.2_x64-setup.exe"><figcaption>Picture 1: the Assets list. The file to click is <code>Hisaab_1.0.2_x64-setup.exe</code>.</figcaption></figure>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-2-keep.png" alt="the browser download warning with Keep anyway"><figcaption>Picture 2: the download warning of the browser, <i>Keep anyway</i>.</figcaption></figure>
+
+<h2 id="smartscreen"><span class="n">3</span>"Windows protected your PC"</h2>
+<p>When you open the setup file, Windows can show a blue window with the title <b>Windows protected your PC</b>.</p>
+<ol>
+<li>Click <b>More info</b>.</li>
+<li>Check the line <i>App: Hisaab_1.0.2_x64-setup.exe</i>.</li>
+<li>Click <b>Run anyway</b>.</li>
+</ol>
+<div class="card warn"><b>Why Windows shows this window:</b> the setup file is not signed yet with a paid code-signing certificate, so Windows does not know the publisher ("Unknown publisher"). The file itself is safe: each update of Hisaab has its own signature, and Hisaab installs an update only when that signature is valid. When the certificate comes, this window goes away.</div>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-3-smartscreen.png" alt="Windows protected your PC, with the link More info"><figcaption>Picture 3: <i>Windows protected your PC</i>. Click <i>More info</i>.</figcaption></figure>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-4-run-anyway.png" alt="the same window with the button Run anyway"><figcaption>Picture 4: the button <i>Run anyway</i>.</figcaption></figure>
+
+<h2 id="install"><span class="n">4</span>Install</h2>
+<ol>
+<li>The Hisaab setup opens. Click <b>Next</b>, then <b>Install</b>. No administrator window comes: Hisaab installs for the current user only, into <code>C:\Users\&lt;you&gt;\AppData\Local\Hisaab</code>.</li>
+<li>When Microsoft Edge WebView2 is not on the PC, the setup installs it (Windows 10 and 11 have it in most cases).</li>
+<li>Click <b>Finish</b>. Hisaab starts. Later, open Hisaab from the Start menu.</li>
+</ol>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-5-setup.png" alt="the Hisaab setup window"><figcaption>Picture 5: the Hisaab setup.</figcaption></figure>
+
+<h2 id="first"><span class="n">5</span>First start</h2>
+<ol>
+<li>The first start takes up to one minute: Windows checks the new program once. The next starts are fast.</li>
+<li>Hisaab asks what to do: <b>an empty data folder</b>, <b>import companies from another folder</b>, <b>the demo company</b> (to try Hisaab), or <b>another folder</b>.</li>
+<li>To bring your companies from TallyPrime: in TallyPrime turn on the XML port one time (<kbd>F1</kbd> &gt; Settings &gt; Connectivity: "TallyPrime acts as" = <b>Both</b>, Port = <b>9000</b>, <kbd>Ctrl+A</kbd>, then start TallyPrime again and open the company). In Hisaab press <kbd>Alt+O</kbd> &gt; <b>Switch from Tally</b>. Hisaab finds TallyPrime, copies the companies, and proves each balance against Tally's own reports.</li>
+<li>The keys are the keys that you know: <kbd>Alt+F3</kbd> select a company, <kbd>F8</kbd> sales, <kbd>F9</kbd> purchase, <kbd>Ctrl+A</kbd> accept, <kbd>Esc</kbd> back, <kbd>F1</kbd> help. <kbd>Ctrl+K</kbd> changes the screen language (Hindi, Gujarati and 8 more in beta).</li>
+</ol>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-6-first-start.png" alt="the first-start question of Hisaab"><figcaption>Picture 6: the first start.</figcaption></figure>
+<figure><img onerror="this.closest('figure').remove()" src="img/install-7-switch.png" alt="Switch from Tally with the list of companies"><figcaption>Picture 7: Switch from Tally.</figcaption></figure>
+
+<h2 id="data"><span class="n">6</span>Where your data is</h2>
+<table>
+<tr><th>What</th><th>Where</th></tr>
+<tr><td>The books (one folder for each company)</td><td><code>Documents\Hisaab\Data</code> (F1 &gt; Settings &gt; Data Folder and Server selects another folder)</td></tr>
+<tr><td>The daily backup of every company (7 versions)</td><td><code>Documents\Hisaab\backups</code> (on from the first day; <kbd>Alt+Y</kbd> &gt; Restore restores a file)</td></tr>
+<tr><td>A copy outside this PC</td><td>Hisaab Drive: your Google Drive, OneDrive, Dropbox or a USB disk, encrypted with your Backup Password. Press <kbd>F9</kbd> on the Gateway when Hisaab reminds you.</td></tr>
+<tr><td>The settings of the app</td><td><code>%APPDATA%\Hisaab\config.json</code></td></tr>
+<tr><td>The error log (for support)</td><td><code>%APPDATA%\Hisaab\logs</code></td></tr>
+</table>
+<div class="card"><b>Set up a copy outside this PC in the first week.</b> A backup on the same PC does not help when the PC is lost or its disk breaks. On the Gateway, press <kbd>F9</kbd>, select a place, and enter a Backup Password. Keep the Recovery Key that Hisaab shows.</div>
+
+<h2 id="updates"><span class="n">7</span>How updates come</h2>
+<ul>
+<li>At each start Hisaab checks this releases page for a new version. When one is there, Hisaab shows "<i>Hisaab 1.0.x is ready … F1 &gt; Upgrade installs it</i>".</li>
+<li><kbd>F1</kbd> &gt; <b>Upgrade</b>: Hisaab downloads the update, checks its signature, backs up every company (<code>Documents\Hisaab\backups\before-update-…</code>), installs the update and starts again. When the backup fails, Hisaab installs nothing.</li>
+<li>The check sends no data about you or your books. <kbd>F1</kbd> &gt; <b>What's New</b> lists the changes of each version.</li>
+<li>To go back to an older version: download its setup file from the releases page and run it. The data stays.</li>
+</ul>
+
+<h2 id="uninstall"><span class="n">8</span>Uninstall (the data stays)</h2>
+<ol>
+<li>Close Hisaab (<kbd>Ctrl+Q</kbd>).</li>
+<li>Windows Settings &gt; Apps &gt; Installed apps &gt; <b>Hisaab</b> &gt; <b>Uninstall</b>.</li>
+<li>The uninstaller removes the program only. Your books and backups stay in <code>Documents\Hisaab</code>. The box "<i>Delete the application data</i>" removes only the window settings, the browser data of the window and the server log (<code>AppData\…\in.hisaab.desktop</code>), not the books.</li>
+<li>To remove the books too, delete the folder <code>Documents\Hisaab</code> yourself (take a copy first).</li>
+</ol>
+
+<h2 id="support"><span class="n">9</span>Support</h2>
+<ol>
+<li>In Hisaab press <kbd>F1</kbd> &gt; <b>Troubleshooting</b> &gt; <b>Save a Support File</b>. Hisaab puts the error log, the versions and the settings (without passwords) into one <code>.zip</code> file on your Desktop. Company data goes into the file only when you tick it.</li>
+<li>Hisaab opens an e-mail to <a href="mailto:info@nexertechnology.com">info@nexertechnology.com</a>. Attach the file, write the steps (what you did, what you saw, what you expected), and send it.</li>
+<li>Hisaab never sends anything by itself. See the <a href="privacy.html">privacy policy</a>.</li>
+</ol>
+<p class="meta">Hisaab 1.0.2 · this page: November 2026 · TallyPrime is a trademark of Tally Solutions Pvt. Ltd.; Hisaab is not made or supported by Tally Solutions.</p>
+</main></body></html>
