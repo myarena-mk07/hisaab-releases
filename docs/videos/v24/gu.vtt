@@ -1,0 +1,82 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:06.164
+Video 24. Office network: ઘણાં PC, ચોપડા એક જ.
+
+00:00:06.364 --> 00:00:11.411
+એક PC ચોપડા રાખે છે. આ PC office server છે.
+
+00:00:11.341 --> 00:00:15.629
+બીજા PC એ જ ચોપડા Chrome કે Edge માં ખોલે છે.
+
+00:00:15.559 --> 00:00:20.189
+દરેક વ્યક્તિ પોતાના નામ અને password થી log in
+કરે છે.
+
+00:00:20.389 --> 00:00:28.422
+Server PC પર, Windows ની Hisaab app માં: F1,
+Settings, Data Folder and Server.
+
+00:00:28.352 --> 00:00:35.945
+"Other computers in the office open these
+books" ને Yes કરો. Port 9100 છે.
+
+00:00:35.875 --> 00:00:40.012
+એની નીચે, બીજા PC માટેનું address દેખાય છે.
+
+00:00:40.212 --> 00:00:49.024
+Ctrl+A થી save થાય છે. Windows એક વાર firewall
+rule માટે પૂછે છે. Yes કહો.
+
+00:00:48.954 --> 00:00:54.763
+Windows rule ન ઉમેરે, તો Hisaab IT વ્યક્તિ
+માટે એક command બતાવે છે.
+
+00:00:54.693 --> 00:00:58.237
+પછી Hisaab office server તરીકે ફરી શરૂ થાય છે.
+
+00:00:58.537 --> 00:01:02.914
+Logo ની નીચે, server PC હવે OFFICE SERVER
+બતાવે છે.
+
+00:01:02.944 --> 00:01:08.425
+F1, S, F થી Data Folder and Server ખુલે છે.
+
+00:01:09.505 --> 00:01:13.787
+એમાં address, અને certificate ની fingerprint
+દેખાય છે.
+
+00:01:15.555 --> 00:01:26.095
+પછી દરેક વ્યક્તિ માટે user. Alt+K, Security: Control
+User Access, Yes, અને માલિકનો password.
+
+00:01:26.794 --> 00:01:34.866
+Alt+C થી user બને છે: Data Entry, નામ, અને
+Allow Browser Access, Yes.
+
+00:01:35.817 --> 00:01:40.062
+પછી user નો password. હવે priya list માં છે.
+
+00:01:42.694 --> 00:01:49.626
+બીજા PC પર, Chrome કે Edge ખોલો: https, server
+નું address, અને port.
+
+00:01:49.656 --> 00:01:57.999
+પહેલી વાર, Hisaab server ની fingerprint બતાવે
+છે. Server PC સાથે સરખાવો, પછી આગળ વધો.
+
+00:01:58.029 --> 00:02:03.653
+Company પસંદ કરો, અને તમારા પોતાના નામ અને
+password થી log in કરો.
+
+00:02:06.342 --> 00:02:13.031
+હવે priya એ જ ચોપડા પર કામ કરે છે. આ PC MULTI
+USER બતાવે છે.
+
+00:02:13.511 --> 00:02:19.450
+એક PC ચોપડા રાખે છે, અને office નું દરેક PC
+એના પર કામ કરે છે.
+
+00:02:19.380 --> 00:02:23.275
+હવે પછી: screen ની ભાષા અને phonetic typing.
+

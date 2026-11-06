@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:06.069
+Video seven. Masters: the groups, the ledgers,
+and the GST tax ledgers.
+
+00:00:06.369 --> 00:00:08.721
+H opens the Chart of Accounts.
+
+00:00:09.099 --> 00:00:13.315
+These are the 28 built-in groups, from Capital
+Account to Suspense A/c.
+
+00:00:13.795 --> 00:00:17.545
+Your customers go under Sundry Debtors. They
+pay you.
+
+00:00:17.475 --> 00:00:21.225
+Your suppliers go under Sundry Creditors. You
+pay them.
+
+00:00:21.525 --> 00:00:26.142
+Esc. Then C for Create, type "led", and press
+Enter.
+
+00:00:26.844 --> 00:00:30.594
+The customer: Sharma Traders, under Sundry
+Debtors.
+
+00:00:31.294 --> 00:00:36.245
+Maintain balances bill-by-bill is Yes. The
+credit period is 30 days.
+
+00:00:36.275 --> 00:00:39.160
+Then the address and the state: Gujarat.
+
+00:00:39.963 --> 00:00:45.712
+Under Tax Registration Details: the PAN, the
+type Regular, and the GSTIN.
+
+00:00:47.548 --> 00:00:51.831
+Ctrl+A saves the ledger. The form opens again
+for the next ledger.
+
+00:00:52.911 --> 00:00:59.395
+The supplier: Mehta Fabrics, under Sundry Creditors.
+For the state, type "maha": Maharashtra.
+
+00:01:00.093 --> 00:01:06.510
+The GSTIN starts with 27, for Maharashtra. A
+purchase from another state gets IGST.
+
+00:01:08.882 --> 00:01:13.766
+Ctrl+A. Now the bank: HDFC Bank, under Bank
+Accounts.
+
+00:01:14.465 --> 00:01:19.017
+Type the account number and the IFS code.
+Hisaab fills in the bank name.
+
+00:01:21.781 --> 00:01:28.933
+Ctrl+A. Then Sales Account, under Sales Accounts. GST is
+applicable. The stock items give the tax rate.
+
+00:01:29.388 --> 00:01:33.806
+The purchase ledger is the same: Purchase
+Account, under Purchase Accounts.
+
+00:01:35.557 --> 00:01:41.974
+The tax ledgers go under Duties & Taxes. The
+type of duty is GST. Then select the tax type.
+
+00:01:42.004 --> 00:01:45.021
+CGST is Central Tax.
+
+00:01:45.051 --> 00:01:48.003
+SGST is State Tax.
+
+00:01:48.951 --> 00:01:51.836
+And IGST is Integrated Tax.
+
+00:01:52.897 --> 00:01:56.580
+Ctrl+A. Each tax ledger saves with its own tax
+type.
+
+00:01:57.660 --> 00:02:01.011
+Esc, then H: the Chart of Accounts again.
+
+00:02:01.188 --> 00:02:04.140
+Each new ledger now shows under its group.
+
+00:02:05.638 --> 00:02:09.321
+Your masters are ready. Next: the stock items.
+

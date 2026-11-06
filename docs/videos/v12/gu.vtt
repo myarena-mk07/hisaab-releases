@@ -1,0 +1,80 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:05.275
+Video 12. Journal, credit note, debit note.
+
+00:00:05.475 --> 00:00:09.334
+Journal રોકડ કે bank વગરની entry નોંધે છે.
+
+00:00:09.264 --> 00:00:14.263
+એક ledger debit, Salary. બીજું credit, Salary
+Payable.
+
+00:00:14.563 --> 00:00:17.171
+V, પછી F7: journal.
+
+00:00:17.872 --> 00:00:21.904
+Enter થી Dr. Salary, ₹40,000.
+
+00:00:22.603 --> 00:00:27.999
+C થી Cr. Salary Payable: Hisaab એ જ રકમ ભરે
+છે.
+
+00:00:28.692 --> 00:00:32.515
+Narration લખો, અને Ctrl+A થી save.
+
+00:00:33.664 --> 00:00:37.306
+Credit note: ગ્રાહક માલ પાછો આપે છે.
+
+00:00:37.236 --> 00:00:41.375
+Debit note: તમે supplier ને માલ પાછો આપો છો.
+
+00:00:41.675 --> 00:00:47.618
+Alt+F6: credit note. Patel Garments, અને sales
+ledger.
+
+00:00:48.319 --> 00:00:52.806
+પાછી આવતી item: 5 મીટર silk, ₹900 ના ભાવે.
+
+00:00:53.507 --> 00:01:00.038
+CGST અને SGST: Hisaab tax ગણે છે. પછી
+narration.
+
+00:01:00.737 --> 00:01:07.710
+Ctrl+I, Statutory Details: કારણ, અને મૂળ
+invoice, 31 May નું નંબર 2.
+
+00:01:10.861 --> 00:01:17.011
+Ctrl+A થી accept. Agst Ref invoice 2 માંથી રકમ
+ઘટાડે છે.
+
+00:01:17.698 --> 00:01:19.389
+Credit note save થઈ.
+
+00:01:21.842 --> 00:01:27.798
+Alt+F5: debit note. Mehta Fabrics, અને
+purchase ledger.
+
+00:01:28.497 --> 00:01:33.440
+100 મીટર cotton, ₹110 ના ભાવે, IGST સાથે.
+
+00:01:34.141 --> 00:01:39.443
+Narration, અને Statutory Details માં મૂળ bill:
+MF/101.
+
+00:01:42.594 --> 00:01:49.817
+Ctrl+A થી accept. Bill ચૂકવેલું છે, એટલે
+bill-wise માં New Ref.
+
+00:01:49.847 --> 00:01:51.601
+Debit note save થઈ.
+
+00:01:53.733 --> 00:01:57.759
+Patel Garments નું દેવું ₹4,725 ઘટ્યું.
+
+00:01:57.689 --> 00:02:02.673
+Mehta Fabrics હવે તમને ₹11,550 આપશે.
+
+00:02:02.872 --> 00:02:05.487
+હવે પછી: bank reconciliation.
+

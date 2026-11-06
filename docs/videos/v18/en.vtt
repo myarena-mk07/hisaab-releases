@@ -1,0 +1,67 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:05.468
+Video eighteen. GSTR-1 and GSTR-3B.
+
+00:00:05.668 --> 00:00:09.019
+You enter the sales invoices and the purchase
+bills.
+
+00:00:08.949 --> 00:00:13.434
+GSTR-1 collects the outward supplies, table by
+table.
+
+00:00:13.364 --> 00:00:18.916
+GSTR-3B adds the input tax of the purchases,
+and shows the tax to pay.
+
+00:00:18.846 --> 00:00:22.197
+Each return goes to the portal as a JSON file.
+
+00:00:22.497 --> 00:00:27.780
+Press Alt+G, and type GSTR-1. The report opens
+on the current month.
+
+00:00:28.478 --> 00:00:35.428
+Alt+F2 changes the period: April to October. 17
+vouchers: 5 are in the return, 1 is uncertain.
+
+00:00:36.128 --> 00:00:42.878
+The Return View shows each table. Enter on B2B shows the
+three invoices, with the GSTIN of each buyer.
+
+00:00:43.358 --> 00:00:49.309
+17 vouchers in the period. 5 go into the
+return. The others are not relevant for GST.
+
+00:00:49.239 --> 00:00:52.922
+One voucher is uncertain. Correct it before
+you file.
+
+00:00:53.222 --> 00:00:57.679
+Uncertain Transactions lists each voucher with
+its reason. Joshi Stores
+
+00:00:57.329 --> 00:01:00.705
+is a registered dealer, but the ledger has no
+GSTIN.
+
+00:01:00.990 --> 00:01:07.142
+Alt+E exports the return. Hisaab asks: 1 uncertain
+voucher is not in the return. Export?
+
+00:01:07.172 --> 00:01:12.123
+Y writes the JSON file. Upload it on the GST
+portal with the offline tool.
+
+00:01:13.392 --> 00:01:20.078
+GSTR-3B uses the same vouchers. Table 3.1
+shows the outward supplies and their tax.
+
+00:01:21.500 --> 00:01:28.250
+Table 4 shows the input tax credit of the
+purchases: ₹13,875 of IGST.
+
+00:01:28.730 --> 00:01:32.081
+Next video: e-Invoice and e-Way Bill.
+

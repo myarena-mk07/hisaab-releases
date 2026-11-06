@@ -1,0 +1,75 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:04.874
+Video 3. Tally માંથી એક step માં switch કરો.
+
+00:00:05.074 --> 00:00:11.692
+પહેલાં, ફક્ત એક વાર TallyPrime માં: એનો XML
+port ચાલુ કરો.
+
+00:00:11.622 --> 00:00:15.575
+F1 દબાવો, પછી Settings, પછી Connectivity.
+
+00:00:15.505 --> 00:00:23.270
+"TallyPrime acts as" માં Both રાખો. Port 9000
+રાખો, અને Ctrl+A દબાવો.
+
+00:00:23.199 --> 00:00:28.344
+પછી TallyPrime બંધ કરો, ફરી ચાલુ કરો, અને
+તમારી company ખોલો.
+
+00:00:28.644 --> 00:00:35.052
+હવે Hisaab ખોલો. નવા PC માં, Select Company
+માં Switch from Tally દેખાય છે.
+
+00:00:35.082 --> 00:00:40.102
+એ Import menu માં પણ છે. Gateway પર, Alt+O
+દબાવો.
+
+00:00:40.726 --> 00:00:46.892
+Switch from Tally માટે W દબાવો. Hisaab તરત
+TallyPrime શોધે છે.
+
+00:00:46.922 --> 00:00:53.778
+Esc દબાવો તો search દેખાય છે. Hisaab એ આ PC
+માં અને office network માં જોયું.
+
+00:00:53.808 --> 00:01:02.475
+આ video માં, test Tally port 9260 પર જવાબ આપે
+છે. તમારું TallyPrime port 9000 વાપરે છે.
+
+00:01:02.505 --> 00:01:11.244
+Enter દબાવો: TallyPrime માં ખુલ્લી દરેક company દેખાય
+છે, એના GSTIN, dates અને vouchers સાથે.
+
+00:01:12.324 --> 00:01:18.042
+Hisaab company tick કરે છે. Space થી company
+tick કે untick થાય છે.
+
+00:01:18.072 --> 00:01:21.194
+Enter દબાવો, અને Yes માટે ફરી Enter.
+
+00:01:22.572 --> 00:01:31.171
+Hisaab પહેલાં masters, પછી vouchers copy કરે છે. Esc
+થી અટકે છે, અને ત્યારે કંઈ save થતું નથી.
+
+00:01:31.651 --> 00:01:37.589
+પરિણામ: 60 masters અને 12 vouchers, 51
+milliseconds માં.
+
+00:01:37.519 --> 00:01:45.099
+પછી Hisaab, Tally ના પોતાના reports સામે 46
+lines check કરે છે. બધી 46 match થાય છે.
+
+00:01:45.298 --> 00:01:51.955
+Hisaab, Tally માંથી ફક્ત વાંચે છે. તમારો Tally
+data જેમ છે તેમ જ રહે છે.
+
+00:01:51.885 --> 00:01:58.323
+દરેક company, Hisaab માં નવી company બને છે.
+TallyPrime, PC પર રહી શકે છે.
+
+00:01:58.523 --> 00:02:04.732
+તમારી company, Hisaab માં આવી ગઈ. આગળના video
+માં Proof of Match જોઈશું.
+

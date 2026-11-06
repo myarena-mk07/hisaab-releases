@@ -1,0 +1,68 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:06.337
+Video 18. GSTR-1 ane GSTR-3B.
+
+00:00:06.537 --> 00:00:10.002
+Tame sales invoices ane purchase bills nondho
+chho.
+
+00:00:09.932 --> 00:00:15.710
+GSTR-1 outward supplies bhega kare chhe, table
+pramaane.
+
+00:00:15.639 --> 00:00:22.522
+GSTR-3B purchases no input tax umere chhe, ane
+bharvaano tax bataave chhe.
+
+00:00:22.452 --> 00:00:26.333
+Darek return portal par JSON file tarike jaay
+chhe.
+
+00:00:26.633 --> 00:00:34.930
+Alt+G dabaavo, ane GSTR-1 type karo. Report
+chaalu mahina par khule chhe.
+
+00:00:34.960 --> 00:00:45.547
+Alt+F2 thi period badlo: April thi October. 17
+vouchers: 5 return ma chhe, 1 uncertain chhe.
+
+00:00:45.577 --> 00:00:57.193
+Return View ma darek table dekhaay chhe. B2B par Enter thi tran
+invoices dekhaay chhe, darek kharidnaar na GSTIN saathe.
+
+00:00:57.673 --> 00:01:05.899
+Period ma 17 vouchers. 5 return ma jaay chhe.
+Baakina GST maate laagu nathi.
+
+00:01:05.829 --> 00:01:11.424
+1 voucher uncertain chhe. File karta pehla
+tene sudhaaro.
+
+00:01:11.724 --> 00:01:18.451
+Uncertain Transactions ma darek voucher tena
+kaaran saathe dekhaay chhe.
+
+00:01:18.101 --> 00:01:23.999
+Joshi Stores registered dealer chhe, pan
+ledger ma GSTIN nathi.
+
+00:01:24.029 --> 00:01:35.144
+Alt+E thi return export thaay chhe. Hisaab puchhe chhe: 1
+uncertain voucher return ma nathi. Export karvu?
+
+00:01:35.174 --> 00:01:42.709
+Y thi JSON file bane chhe. Tene GST portal par
+offline tool thi upload karo.
+
+00:01:43.789 --> 00:01:53.028
+GSTR-3B e j vouchers vaapre chhe. Table 3.1
+outward supplies ane teno tax bataave chhe.
+
+00:01:53.730 --> 00:02:01.331
+Table 4 purchases ni input tax credit bataave
+chhe: IGST ₹13,875.
+
+00:02:01.811 --> 00:02:05.672
+Aagalno video: e-Invoice ane e-Way Bill.
+

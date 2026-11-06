@@ -1,0 +1,61 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:05.600
+Video nineteen. e-Invoice and e-Way Bill. Both
+are in Beta.
+
+00:00:05.800 --> 00:00:10.417
+An e-invoice is a sales invoice that the
+government's IRP registers.
+
+00:00:10.347 --> 00:00:15.563
+The IRP gives an IRN and a signed QR code.
+They print on the invoice.
+
+00:00:15.492 --> 00:00:18.377
+An e-way bill goes with the goods on the road.
+
+00:00:18.678 --> 00:00:23.230
+Hisaab Services shows e-Invoice and e-Way Bill
+with a Beta line.
+
+00:00:24.282 --> 00:00:28.964
+Hisaab tested them with a test copy of the
+partner, not yet with the real service.
+
+00:00:30.044 --> 00:00:34.327
+Alt+Z opens Exchange. Send for e-Invoicing is
+the first line.
+
+00:00:34.924 --> 00:00:41.740
+F2 sets the period. Hisaab sorts the invoices:
+pending, corrections needed, and IRN generated.
+
+00:00:42.439 --> 00:00:46.588
+Invoice two has no PIN code of the buyer.
+Correct it first.
+
+00:00:46.618 --> 00:00:53.102
+S sends the invoices online through Hisaab Services. X
+exports the JSON for the bulk upload on the portal.
+
+00:00:54.182 --> 00:00:59.532
+The e-Invoice report lists each invoice with
+its IRN, the Ack number and the Ack date.
+
+00:01:03.653 --> 00:01:10.805
+Open invoice 4, and press Ctrl+P. The IRN, the Ack
+number and the signed QR code print at the top.
+
+00:01:11.885 --> 00:01:18.902
+Alt+Z, W opens Send for e-Way Bill. Hisaab lists what to
+correct first: here, the PIN code and the distance.
+
+00:01:20.747 --> 00:01:25.165
+Each e-way bill gets its number, its validity
+and the vehicle number.
+
+00:01:25.645 --> 00:01:31.394
+In Beta, check each IRN and each e-way bill on
+the portal. Next video: TDS.
+

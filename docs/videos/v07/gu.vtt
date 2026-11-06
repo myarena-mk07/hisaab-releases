@@ -1,0 +1,94 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:06.228
+Video 7. Masters: groups, ledgers, અને GST tax
+ledgers.
+
+00:00:06.528 --> 00:00:09.776
+H દબાવો તો Chart of Accounts ખુલે છે.
+
+00:00:09.806 --> 00:00:14.458
+આ છે 28 built-in groups, Capital Account થી
+Suspense A/c સુધી.
+
+00:00:14.938 --> 00:00:20.275
+તમારા ગ્રાહકો Sundry Debtors નીચે જાય છે. એ
+તમને પૈસા આપે છે.
+
+00:00:20.205 --> 00:00:25.964
+તમારા suppliers Sundry Creditors નીચે જાય છે.
+તમે એમને પૈસા આપો છો.
+
+00:00:26.264 --> 00:00:31.826
+Esc. પછી Create માટે C, "led" લખો, અને Enter
+દબાવો.
+
+00:00:31.896 --> 00:00:35.559
+ગ્રાહક: Sharma Traders, Sundry Debtors નીચે.
+
+00:00:36.258 --> 00:00:40.188
+Bill-by-bill balances: Yes. Credit period 30
+દિવસ.
+
+00:00:40.439 --> 00:00:43.027
+પછી address અને state: Gujarat.
+
+00:00:44.127 --> 00:00:49.271
+Tax Registration Details માં: PAN, type
+Regular, અને GSTIN.
+
+00:00:51.711 --> 00:00:57.864
+Ctrl+A થી ledger save થાય છે. આગલા ledger માટે
+form ફરી ખુલે છે.
+
+00:00:58.944 --> 00:01:06.546
+Supplier: Mehta Fabrics, Sundry Creditors
+નીચે. State માટે "maha" લખો: Maharashtra.
+
+00:01:07.248 --> 00:01:16.533
+GSTIN 27 થી શરૂ થાય છે, Maharashtra માટે. બીજા
+state માંથી purchase પર IGST લાગે છે.
+
+00:01:17.613 --> 00:01:23.710
+Ctrl+A. હવે bank: HDFC Bank, Bank Accounts
+નીચે.
+
+00:01:24.342 --> 00:01:30.693
+Account number અને IFS code લખો. Hisaab bank
+name જાતે ભરે છે.
+
+00:01:31.773 --> 00:01:42.439
+Ctrl+A. પછી Sales Account, Sales Accounts નીચે. GST
+લાગુ છે. Tax નો દર stock items માંથી આવે છે.
+
+00:01:42.469 --> 00:01:47.297
+Purchase ledger પણ એવું જ: Purchase Account,
+Purchase Accounts નીચે.
+
+00:01:49.048 --> 00:01:57.278
+Tax ledgers, Duties & Taxes નીચે જાય છે. Type
+of duty: GST. પછી tax type પસંદ કરો.
+
+00:01:57.308 --> 00:01:59.515
+CGST એટલે Central Tax.
+
+00:01:59.621 --> 00:02:01.633
+SGST એટલે State Tax.
+
+00:02:03.521 --> 00:02:06.567
+અને IGST એટલે Integrated Tax.
+
+00:02:07.467 --> 00:02:13.361
+Ctrl+A. દરેક tax ledger પોતાના tax type સાથે
+save થાય છે.
+
+00:02:14.441 --> 00:02:18.182
+Esc, પછી H: ફરી Chart of Accounts.
+
+00:02:18.212 --> 00:02:22.101
+હવે દરેક નવું ledger પોતાના group નીચે દેખાય
+છે.
+
+00:02:22.662 --> 00:02:27.063
+તમારા masters તૈયાર છે. હવે પછી: stock items.
+

@@ -19,6 +19,23 @@ a{color:var(--accent)}.row{display:grid;grid-template-columns:repeat(auto-fit,mi
 video{width:100%;border-radius:10px;background:#000}.note{background:var(--warnbg);color:var(--warn);border-radius:10px;padding:10px 14px;font-size:15px}
 ol{margin:6px 0 0;padding-left:22px}li{margin:4px 0}.small{color:var(--mute);font-size:14px}
 .chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.chip{background:var(--accentbg);border-radius:999px;padding:4px 12px;font-size:14px}
+.lhead{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.lhead h2{margin:0}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;overflow:hidden}.seg button{border:0;background:transparent;color:var(--ink);font:600 14px system-ui,sans-serif;padding:7px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--accent);color:#fff}
+@media (prefers-color-scheme:dark){.seg button[aria-pressed="true"]{color:#0b1220}}
+.player{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:16px;margin:12px 0 16px}
+.player video{aspect-ratio:16/9}
+.pinfo h3{margin:4px 0 6px;font-size:20px}.pinfo p{margin:0 0 12px;color:var(--mute)}.pn{color:var(--accent);font-weight:700;font-size:14px}
+.pnav{display:flex;gap:8px}.pnav button,.vc{font:inherit;color:inherit}
+.pnav button{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:6px 12px;cursor:pointer}
+.secnav{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}.secnav a{background:var(--accentbg);border-radius:999px;padding:4px 12px;font-size:14px;text-decoration:none}
+.sec h3{margin:18px 0 10px;font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.vc{display:block;text-align:left;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:0;overflow:hidden;cursor:pointer}
+.vc:hover,.vc.on{border-color:var(--accent)}.vc.on{box-shadow:0 0 0 2px var(--accent) inset}
+.vc img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--line)}
+.vc .b{padding:8px 10px 10px}.vc .t{font-weight:650;font-size:15px;line-height:1.3}.vc .m{color:var(--mute);font-size:13px;margin-top:3px}
+@media (max-width:700px){.player{grid-template-columns:1fr}}
 </style>
 </head>
 <body><main>
@@ -33,17 +50,18 @@ ol{margin:6px 0 0;padding-left:22px}li{margin:4px 0}.small{color:var(--mute);fon
 <div class="chips"><span class="chip">💻 Your books stay on your PC</span><span class="chip">🚫 No account, no tracking</span><span class="chip">🔁 One-step Switch from Tally</span><span class="chip">💾 Daily backup</span><span class="chip">🏢 Office network</span></div>
 </div>
 
-<div class="card">
-<h2>🎬 Learn Hisaab in 15 minutes</h2>
-<div class="row">
- <div><h3>English</h3>
-  <video controls preload="metadata" poster="onboarding/en/full.png"><source src="onboarding/en/onboarding.mp4" type="video/mp4"><track kind="captions" src="onboarding/en/onboarding.en.vtt" srclang="en" label="English" default></video>
-  <p class="small">Full film, 12 min · <a href="onboarding/en/one-minute.mp4">Hisaab in one minute</a></p></div>
- <div><h3>ગુજરાતી (Gujlish)</h3>
-  <video controls preload="metadata" poster="onboarding/gu/full.png"><source src="onboarding/gu/onboarding.mp4" type="video/mp4"><track kind="captions" src="onboarding/gu/onboarding.gu.vtt" srclang="gu" label="ગુજરાતી" default><track kind="captions" src="onboarding/gu/onboarding.gu-Latn.vtt" srclang="gu-Latn" label="Gujarati (Latin)"></video>
-  <p class="small">Full film, 16 min · <a href="onboarding/gu/one-minute.mp4">Hisaab in one minute</a></p></div>
+<div class="card" id="learn">
+<div class="lhead"><h2>🎬 Learn Hisaab</h2>
+ <div class="seg" role="group" aria-label="Language"><button type="button" data-lang="en">English</button><button type="button" data-lang="gu">ગુજરાતી</button></div></div>
+<p class="small" id="lsub">Start with the 90-second film. Then pick a topic: 27 short videos, 1 to 2.5 minutes each, on the real app.</p>
+<div class="player">
+ <video id="pv" controls playsinline preload="metadata"></video>
+ <div class="pinfo"><div class="pn" id="pn"></div><h3 id="pt"></h3><p id="pl"></p>
+  <div class="pnav"><button type="button" id="prev">‹ <span data-t="prev">Previous</span></button><button type="button" id="next"><span data-t="next">Next</span> ›</button></div></div>
 </div>
-<p class="small">Chapters: Welcome · Switch from Tally · The Gateway and the keys · Daily work · Reports · GST, TDS and payroll · Safe data · Help and support.</p>
+<nav class="secnav" id="secnav"></nav>
+<div id="lib"><p class="small">Loading the videos…</p></div>
+<noscript><p class="small">The video list needs JavaScript. The files are in the <a href="videos/">videos</a> folder.</p></noscript>
 </div>
 
 <div class="card">
@@ -62,4 +80,52 @@ ol{margin:6px 0 0;padding-left:22px}li{margin:4px 0}.small{color:var(--mute);fon
 <p>In Hisaab: <b>F1</b> opens the manual and the help for the current screen. E-mail: <a href="mailto:info@nexertechnology.com">info@nexertechnology.com</a> (F1 › Troubleshooting › Save a Support File makes a file that you can attach).</p>
 <p class="small"><a href="privacy.html">Privacy policy</a> · Hisaab keeps your books in Documents\Hisaab\Data on your PC. NEXER_TECH receives no data.</p>
 </div>
-</main></body></html>
+</main>
+<script>
+(function(){
+ var T={en:{sub:'Start with the 90-second film. Then pick a topic: 27 short videos, 1 to 2.5 minutes each, on the real app.',prev:'Previous',next:'Next',video:'Video',of:'of',min:'min'},
+        gu:{sub:'90 સેકન્ડની film થી શરૂ કરો. પછી વિષય પસંદ કરો: 27 નાના videos, દરેક 1 થી 2.5 મિનિટ, સાચી app પર.',prev:'પાછળ',next:'આગળ',video:'Video',of:'માંથી',min:'મિનિટ'}};
+ var lang='en';try{lang=localStorage.getItem('hisaab-lang')||((navigator.language||'').indexOf('gu')===0?'gu':'en');}catch(e){}
+ var lib=null,cur=0,v=document.getElementById('pv');
+ function fmt(s){s=Math.round(s||0);return Math.floor(s/60)+':'+String(s%60).padStart(2,'0');}
+ function avail(x){return x.langs.indexOf(lang)>=0?lang:(x.langs[0]||'en');}
+ function load(i,play){
+  if(!lib)return;cur=(i+lib.videos.length)%lib.videos.length;var x=lib.videos[cur],l=avail(x),d='videos/'+x.id+'/';
+  v.pause();while(v.firstChild)v.removeChild(v.firstChild);v.poster=d+l+'.jpg';
+  var so=document.createElement('source');so.src=d+l+'.mp4';so.type='video/mp4';v.appendChild(so);
+  (l==='en'?[['en.vtt','en','English']]:[['gu.vtt','gu','ગુજરાતી'],['gu-Latn.vtt','gu-Latn','Gujlish (Latin)']]).forEach(function(c){var t=document.createElement('track');t.kind='captions';t.src=d+c[0];t.srclang=c[1];t.label=c[2];v.appendChild(t);});
+  v.load();if(play){var p=v.play();if(p&&p.catch)p.catch(function(){});}
+  var nn=String(x.n).padStart(2,'0'),tot=lib.videos.length;document.getElementById('pn').textContent=(lang==='gu'?'Video '+nn+' ('+tot+' માંથી)':'Video '+nn+' of '+tot)+' · '+fmt(x[l].dur);
+  document.getElementById('pt').textContent=x[lang].title;document.getElementById('pl').textContent=x[lang].line;
+  document.querySelectorAll('.vc').forEach(function(c){c.classList.toggle('on',c.dataset.i==cur);});
+  try{history.replaceState(null,'','#'+x.id);}catch(e){}
+ }
+ function render(){
+  document.querySelectorAll('.seg button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.lang===lang);});
+  document.getElementById('lsub').textContent=T[lang].sub;
+  document.querySelectorAll('[data-t]').forEach(function(e){e.textContent=T[lang][e.dataset.t];});
+  if(!lib)return;var nav=document.getElementById('secnav'),out=document.getElementById('lib');nav.innerHTML='';out.innerHTML='';
+  lib.sections.forEach(function(s){
+   var vs=lib.videos.map(function(x,i){return [x,i];}).filter(function(p){return p[0].section===s.id&&p[0].langs.length;});if(!vs.length)return;
+   var a=document.createElement('a');a.href='#sec-'+s.id;a.textContent=s.icon+' '+s[lang];nav.appendChild(a);
+   var sec=document.createElement('div');sec.className='sec';sec.id='sec-'+s.id;var h=document.createElement('h3');h.textContent=s.icon+' '+s[lang];sec.appendChild(h);
+   var g=document.createElement('div');g.className='grid';
+   vs.forEach(function(p){var x=p[0],l=avail(x),b=document.createElement('button');b.type='button';b.className='vc';b.dataset.i=p[1];
+    var im=document.createElement('img');im.loading='lazy';im.alt='';im.src='videos/'+x.id+'/'+l+'.jpg';b.appendChild(im);
+    var bd=document.createElement('div');bd.className='b';var t=document.createElement('div');t.className='t';t.textContent=String(x.n).padStart(2,'0')+' · '+x[lang].title;
+    var m=document.createElement('div');m.className='m';m.textContent=fmt(x[l].dur)+' · '+x[lang].line;bd.appendChild(t);bd.appendChild(m);b.appendChild(bd);
+    b.addEventListener('click',function(){load(p[1],true);document.getElementById('learn').scrollIntoView({behavior:'smooth'});});g.appendChild(b);});
+   sec.appendChild(g);out.appendChild(sec);});
+ }
+ document.querySelectorAll('.seg button').forEach(function(b){b.addEventListener('click',function(){lang=b.dataset.lang;try{localStorage.setItem('hisaab-lang',lang);}catch(e){}render();load(cur,false);});});
+ document.getElementById('prev').addEventListener('click',function(){load(cur-1,true);});
+ document.getElementById('next').addEventListener('click',function(){load(cur+1,true);});
+ v.addEventListener('ended',function(){if(cur<lib.videos.length-1)load(cur+1,true);});
+ render();
+ fetch('videos/library.json').then(function(r){return r.json();}).then(function(j){
+  j.videos=j.videos.filter(function(x){return x.langs.length;});lib=j;render();
+  var h=(location.hash||'').slice(1),i=lib.videos.findIndex(function(x){return x.id===h;});load(i>=0?i:0,false);
+ }).catch(function(){document.getElementById('lib').innerHTML='<p class="small">The video list did not load. Open the page again.</p>';});
+})();
+</script>
+</body></html>

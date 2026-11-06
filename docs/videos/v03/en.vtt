@@ -1,0 +1,75 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:03.801
+Video three. Switch from Tally in one step.
+
+00:00:04.001 --> 00:00:08.284
+First, one time in TallyPrime: turn on its XML
+port.
+
+00:00:08.214 --> 00:00:11.764
+Press F1, then Settings, then Connectivity.
+
+00:00:11.694 --> 00:00:17.044
+Set "TallyPrime acts as" to Both. Set the port
+to 9000, and press Ctrl+A.
+
+00:00:16.975 --> 00:00:21.058
+Then close TallyPrime, start it again, and
+open your company.
+
+00:00:21.358 --> 00:00:26.242
+Now open Hisaab. On a new PC, Select Company
+shows Switch from Tally.
+
+00:00:26.272 --> 00:00:30.690
+It is also in the Import menu. On the Gateway,
+press Alt+O.
+
+00:00:31.872 --> 00:00:36.223
+Press W for Switch from Tally. Hisaab looks
+for TallyPrime at once.
+
+00:00:36.253 --> 00:00:40.870
+Esc shows the search. Hisaab looked on this PC
+and in the office network.
+
+00:00:41.253 --> 00:00:48.602
+In this video, a test Tally answers on port
+9260. Your TallyPrime uses port 9000.
+
+00:00:48.632 --> 00:00:55.116
+Enter shows each company that is open in TallyPrime,
+with its GSTIN, its dates and its vouchers.
+
+00:00:56.196 --> 00:01:00.345
+Hisaab ticks the company. Space ticks or
+unticks a company.
+
+00:01:00.375 --> 00:01:03.260
+Press Enter, and Enter again for Yes.
+
+00:01:04.875 --> 00:01:10.893
+Hisaab copies the masters, then the vouchers.
+Esc stops it, and then nothing is saved.
+
+00:01:11.825 --> 00:01:16.642
+The result: 60 masters and 12 vouchers, in 51
+milliseconds.
+
+00:01:16.572 --> 00:01:21.922
+Then Hisaab checks 46 lines against Tally's
+own reports. All 46 match.
+
+00:01:22.122 --> 00:01:26.473
+Hisaab only reads from Tally. Your Tally data
+stays as it is.
+
+00:01:26.403 --> 00:01:31.686
+Each company becomes a new company in Hisaab.
+TallyPrime can stay on the PC.
+
+00:01:31.886 --> 00:01:36.169
+Your company is in Hisaab. The next video
+reads the Proof of Match.
+

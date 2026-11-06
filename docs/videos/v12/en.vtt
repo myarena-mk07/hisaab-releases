@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:04.200
+Video twelve. Journal, credit note and debit
+note.
+
+00:00:04.400 --> 00:00:07.886
+A journal records an entry without cash or a
+bank.
+
+00:00:07.816 --> 00:00:12.700
+One ledger is debit, the salary. The other is
+credit, Salary Payable.
+
+00:00:13.000 --> 00:00:16.683
+V opens the vouchers. F7 is a journal.
+
+00:00:17.383 --> 00:00:22.935
+Enter selects Dr: debit. Select Salary, and
+type ₹40,000.
+
+00:00:23.363 --> 00:00:29.112
+C selects Cr: credit. Select Salary Payable:
+Hisaab fills the same amount.
+
+00:00:29.452 --> 00:00:33.068
+Type the narration, and press Ctrl+A to save.
+
+00:00:34.217 --> 00:00:37.501
+A credit note: your customer returns goods.
+
+00:00:37.431 --> 00:00:40.782
+A debit note: you return goods to a supplier.
+
+00:00:41.082 --> 00:00:45.966
+Alt+F6 is a credit note. Select Patel
+Garments, and the sales ledger.
+
+00:00:46.667 --> 00:00:51.219
+The item that comes back: 5 metres of silk, at
+₹900.
+
+00:00:51.920 --> 00:00:58.137
+Select CGST and SGST: Hisaab calculates the
+tax. Then the narration.
+
+00:00:58.840 --> 00:01:06.123
+Ctrl+I opens More Details. In Statutory Details, give the
+reason and the original invoice: number 2 of 31 May.
+
+00:01:09.271 --> 00:01:13.487
+Ctrl+A accepts. Agst Ref takes the amount off
+invoice 2.
+
+00:01:16.108 --> 00:01:18.258
+The credit note is saved.
+
+00:01:20.252 --> 00:01:25.338
+Alt+F5 is a debit note. Select Mehta Fabrics,
+and the purchase ledger.
+
+00:01:26.037 --> 00:01:31.656
+100 metres of cotton at ₹110, with IGST:
+another state.
+
+00:01:32.355 --> 00:01:38.104
+Type the narration, and give the original bill
+in Statutory Details: MF/101.
+
+00:01:41.252 --> 00:01:47.136
+Ctrl+A accepts. Bill MF/101 is paid already,
+so the bill-wise details take New Ref.
+
+00:01:47.166 --> 00:01:49.316
+The debit note is saved.
+
+00:01:51.053 --> 00:01:55.404
+Patel Garments now owes ₹4,725 less.
+
+00:01:55.334 --> 00:02:00.084
+Mehta Fabrics now owes you ₹11,550.
+
+00:02:00.283 --> 00:02:03.634
+Next: banking, and the bank reconciliation.
+

@@ -1,0 +1,78 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:05.666
+Video twenty-three. Users, passwords,
+security, and the Edit Log.
+
+00:00:05.866 --> 00:00:09.751
+The owner turns on security, and makes a user
+for each person.
+
+00:00:09.681 --> 00:00:13.764
+Each user has a role, and logs in with a name
+and a password.
+
+00:00:13.694 --> 00:00:17.579
+The Edit Log keeps every change, with the user
+and the time.
+
+00:00:17.878 --> 00:00:21.494
+Alt+K opens the Company menu. Y is Security.
+
+00:00:21.524 --> 00:00:25.807
+Set Control User Access to Yes. The owner is
+the administrator.
+
+00:00:25.837 --> 00:00:32.054
+Press Ctrl+A. Then Hisaab asks for the owner's
+password, two times. Keep it in a safe place.
+
+00:00:33.134 --> 00:00:37.686
+Alt+K, P opens Users and Passwords. Alt+C
+makes a user.
+
+00:00:37.996 --> 00:00:44.614
+Pick the role Data Entry, and type the name. Data Entry makes
+vouchers and masters, and cannot open security.
+
+00:00:44.644 --> 00:00:49.062
+Ctrl+A asks for the user's password. Now priya
+is in the list.
+
+00:00:54.894 --> 00:00:57.377
+Ctrl+F3 shuts the company.
+
+00:00:58.076 --> 00:01:03.292
+Alt+F3 opens it again. Hisaab asks for the
+name and the password, every time.
+
+00:01:06.076 --> 00:01:10.693
+Priya logs in. Her Company menu has no
+Security and no Users.
+
+00:01:15.126 --> 00:01:18.410
+Priya opens the Day Book, and selects the
+payment.
+
+00:01:18.880 --> 00:01:23.096
+She changes the amount from 30,000 to 18,500.
+
+00:01:23.797 --> 00:01:27.347
+Ctrl+A saves it. The Day Book shows the new
+amount.
+
+00:01:27.377 --> 00:01:32.194
+Alt+Q in the voucher shows its Edit Log: priya
+altered the payment, and the time.
+
+00:01:34.377 --> 00:01:39.395
+Alt+K, L lists the changes to the company
+itself, with the user and the time.
+
+00:01:40.734 --> 00:01:44.686
+Give each person a user. The Edit Log keeps
+every change.
+
+00:01:44.616 --> 00:01:47.035
+Next: the office network.
+

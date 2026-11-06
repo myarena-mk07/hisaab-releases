@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:06.015
+Video 2. Windows પર Hisaab install કરો, અને
+પહેલી વાર ચાલુ કરો.
+
+00:00:06.215 --> 00:00:13.616
+તમને Windows 10 કે 11, 64-bit વાળું PC, અને
+આશરે 400 MB ખાલી જગ્યા જોઈએ.
+
+00:00:13.816 --> 00:00:20.408
+Install માં પાંચ step છે: download, keep, run,
+setup, અને પહેલી શરૂઆત.
+
+00:00:20.708 --> 00:00:27.537
+Hisaab releases page ખોલો. Assets નીચે,
+Hisaab_…_x64-setup.exe file શોધો.
+
+00:00:27.567 --> 00:00:32.993
+એના પર click કરો. બીજી files updates અને
+Microsoft Store માટે છે.
+
+00:00:34.073 --> 00:00:41.176
+Browser પૂછી શકે છે: "Make sure you trust".
+File નવી છે, એટલે એ હજુ ઓળખાતી નથી.
+
+00:00:41.206 --> 00:00:46.754
+Delete ની બાજુના arrow પર click કરો, પછી Keep
+anyway. પછી file ખોલો.
+
+00:00:47.834 --> 00:00:53.982
+હવે Windows એક વાદળી box બતાવી શકે છે:
+"Windows protected your PC".
+
+00:00:54.012 --> 00:00:55.830
+More info પર click કરો.
+
+00:00:56.192 --> 00:01:04.579
+App line માં Hisaab setup file દેખાય છે. File
+પર હજુ paid signature નથી, એટલે આ box આવે છે.
+
+00:01:04.609 --> 00:01:09.198
+Run anyway પર click કરો. આ ફક્ત એક વાર કરવાનું
+છે.
+
+00:01:10.278 --> 00:01:16.896
+Hisaab setup ખૂલે છે. એ ફક્ત તમારા માટે
+install થાય છે, admin password વગર.
+
+00:01:16.926 --> 00:01:22.374
+Next પર click કરો, પછી ફરી Next. છેલ્લે,
+Hisaab ચાલુ થાય છે.
+
+00:01:23.454 --> 00:01:28.919
+પહેલી વાર ખૂલતાં એક minute લાગી શકે છે:
+Windows નવો program check કરે છે.
+
+00:01:28.949 --> 00:01:35.614
+પછી Hisaab પૂછે છે કે ચોપડા ક્યાં રાખવા. નવી
+શરૂઆત માટે, ખાલી data folder લો.
+
+00:01:35.644 --> 00:01:38.544
+પહેલાં જોવું હોય, તો demo company ખોલો.
+
+00:01:40.094 --> 00:01:47.845
+તમારા ચોપડા આ PC માં, Documents\Hisaab\Data
+માં રહે છે. દરેક company નું અલગ folder.
+
+00:01:47.775 --> 00:01:54.049
+પહેલા દિવસથી, Hisaab દરેક company નો રોજ
+backup લે છે, Documents\Hisaab\backups માં.
+
+00:01:54.249 --> 00:02:01.787
+Updates જાતે આવે છે. દરેક શરૂઆતમાં, Hisaab
+નવું version check કરે છે, અને તમને કહે છે.
+
+00:02:01.717 --> 00:02:10.259
+F1 › Upgrade દબાવો. Hisaab પહેલાં દરેક company નો
+backup લે છે, પછી update કરીને ફરી ચાલુ થાય છે.
+
+00:02:10.559 --> 00:02:13.332
+Upgrade, F1 Help menu માં છે.
+
+00:02:13.959 --> 00:02:18.796
+Update પછી, Gateway એ backup બતાવે છે જે
+Hisaab એ પહેલાં લીધો.
+
+00:02:19.276 --> 00:02:24.889
+Hisaab તૈયાર છે. હવે, તમારી company Tally
+માંથી એક step માં લાવો.
+

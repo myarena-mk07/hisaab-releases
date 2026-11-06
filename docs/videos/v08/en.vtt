@@ -1,0 +1,84 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:07.467
+Video eight. Stock: the unit, the group, the godown,
+and the stock items with HSN and GST rate.
+
+00:00:07.667 --> 00:00:10.749
+A stock item needs a unit and a stock group.
+
+00:00:10.679 --> 00:00:13.228
+A godown tells where the stock is.
+
+00:00:13.159 --> 00:00:18.908
+The item keeps its HSN code and its GST rate.
+The Stock Summary shows every item.
+
+00:00:19.208 --> 00:00:23.559
+C opens the List of Masters. The inventory
+masters are in the middle.
+
+00:00:23.589 --> 00:00:29.540
+Type "unit", and press Enter. The type is
+Simple. The symbol is Mtr, for metres.
+
+00:00:30.239 --> 00:00:36.456
+For GST, the unit quantity code is MTR,
+metres. Then two decimal places.
+
+00:00:36.486 --> 00:00:39.904
+Hisaab asks: Accept? Y for yes.
+
+00:00:40.984 --> 00:00:44.936
+Esc, C, and type "stock gr" for Stock Group.
+
+00:00:45.636 --> 00:00:49.655
+The group is Fabrics, under Primary. Ctrl+A
+saves it.
+
+00:00:50.017 --> 00:00:54.767
+Then a godown: Ring Road Warehouse. A godown
+is a place where you keep stock.
+
+00:00:55.467 --> 00:00:57.218
+Ctrl+A.
+
+00:00:58.509 --> 00:01:00.525
+Now the stock item.
+
+00:01:01.935 --> 00:01:05.286
+Cotton Fabric, under Fabrics, in metres.
+
+00:01:07.292 --> 00:01:15.642
+The opening stock: 500 metres at 120 rupees, in Ring Road
+Warehouse. Hisaab calculates 60,000 rupees.
+
+00:01:15.672 --> 00:01:22.089
+For GST, specify the HSN code, 5208, and the
+GST rate: 5%.
+
+00:01:24.389 --> 00:01:26.539
+Ctrl+A saves the item.
+
+00:01:26.569 --> 00:01:34.720
+The second item is Silk Fabric: 200 metres at
+450 rupees, HSN 5007, and also 5%.
+
+00:01:36.469 --> 00:01:41.555
+Esc, then S: the Stock Summary. Fabrics: 700
+metres.
+
+00:01:41.585 --> 00:01:45.604
+Enter shows each item with its quantity, its
+rate and its value.
+
+00:01:47.775 --> 00:01:51.458
+The opening stock is worth ₹1,50,000.
+
+00:01:51.388 --> 00:01:54.605
+Silk Fabric is ₹90,000 of it.
+
+00:01:54.805 --> 00:01:59.021
+Your stock is ready. Next: a sales invoice
+with GST.
+

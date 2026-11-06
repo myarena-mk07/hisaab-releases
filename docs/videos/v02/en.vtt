@@ -1,0 +1,90 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:05.200
+Video two. Install Hisaab on Windows, and
+start it the first time.
+
+00:00:05.400 --> 00:00:11.884
+You need a PC with Windows 10 or 11, 64-bit,
+and about 400 MB of free disk space.
+
+00:00:12.084 --> 00:00:17.501
+The install has five steps: download, keep,
+run, setup, and the first start.
+
+00:00:17.801 --> 00:00:24.352
+Open the Hisaab releases page. Under Assets,
+find the file Hisaab_…_x64-setup.exe.
+
+00:00:24.382 --> 00:00:28.598
+Click it. The other files are for the updates
+and the Microsoft Store.
+
+00:00:29.678 --> 00:00:35.696
+The browser can ask: make sure you trust this file. The
+file is new, so the browser does not know it yet.
+
+00:00:35.726 --> 00:00:40.744
+Click the small arrow next to Delete, then
+click Keep anyway. Then open the file.
+
+00:00:42.276 --> 00:00:46.359
+Now Windows can show a blue box: Windows
+protected your PC.
+
+00:00:46.389 --> 00:00:48.339
+Click More info.
+
+00:00:48.569 --> 00:00:55.385
+Check the line App: it shows the Hisaab setup file. Windows shows
+this box because the file has no paid signature yet.
+
+00:00:55.569 --> 00:00:58.853
+Click Run anyway. You do this one time only.
+
+00:00:59.933 --> 00:01:05.817
+The Hisaab setup opens. It installs Hisaab for you
+only, so it needs no administrator password.
+
+00:01:05.847 --> 00:01:10.198
+Click Next, then Next again. At the end,
+Hisaab starts.
+
+00:01:11.278 --> 00:01:16.162
+The first start can take up to one minute.
+Windows checks the new program one time.
+
+00:01:16.192 --> 00:01:21.143
+Then Hisaab asks where your books go. For a
+new start, take the empty data folder.
+
+00:01:21.192 --> 00:01:24.409
+To look around first, open the demo company.
+
+00:01:25.642 --> 00:01:32.193
+Your books stay on this PC, in
+Documents\Hisaab\Data. Each company has its own folder.
+
+00:01:32.123 --> 00:01:38.405
+From the first day, Hisaab takes a daily backup of
+every company, in Documents\Hisaab\backups.
+
+00:01:38.606 --> 00:01:44.225
+Updates come by themselves. At each start, Hisaab
+checks for a new version, and tells you.
+
+00:01:44.155 --> 00:01:50.572
+Press F1, then Upgrade. Hisaab backs up every company
+first, installs the update, and starts again.
+
+00:01:50.872 --> 00:01:53.623
+Upgrade is in the F1 Help menu.
+
+00:01:54.272 --> 00:01:58.690
+After the update, the Gateway shows the backup
+that Hisaab took before it.
+
+00:01:59.170 --> 00:02:03.655
+Hisaab is ready. Next, bring your company from
+Tally in one step.
+

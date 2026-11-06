@@ -1,0 +1,648 @@
+{
+ "sections": [
+  {
+   "id": "start",
+   "en": "Start here",
+   "gu": "અહીંથી શરૂ કરો",
+   "icon": "🚀"
+  },
+  {
+   "id": "switch",
+   "en": "Switch from Tally",
+   "gu": "Tally માંથી Switch",
+   "icon": "🔁"
+  },
+  {
+   "id": "basics",
+   "en": "Basics",
+   "gu": "પાયાની વાતો",
+   "icon": "🧱"
+  },
+  {
+   "id": "daily",
+   "en": "Daily work",
+   "gu": "રોજનું કામ",
+   "icon": "🧾"
+  },
+  {
+   "id": "reports",
+   "en": "Reports",
+   "gu": "Reports",
+   "icon": "📊"
+  },
+  {
+   "id": "gst",
+   "en": "GST and statutory",
+   "gu": "GST અને કાયદાકીય કામ",
+   "icon": "🏛️"
+  },
+  {
+   "id": "safe",
+   "en": "Safe data and team",
+   "gu": "સુરક્ષિત data અને team",
+   "icon": "🛡️"
+  },
+  {
+   "id": "more",
+   "en": "More",
+   "gu": "વધુ",
+   "icon": "✨"
+  }
+ ],
+ "videos": [
+  {
+   "id": "v01",
+   "n": 1,
+   "section": "start",
+   "icon": "",
+   "en": {
+    "title": "Hisaab in 90 seconds",
+    "line": "What Hisaab is, and how to start.",
+    "dur": 95.8,
+    "mb": 5.7
+   },
+   "gu": {
+    "title": "Hisaab 90 સેકન્ડમાં",
+    "line": "Hisaab શું છે, અને શરૂઆત કેવી રીતે કરવી.",
+    "dur": 106.5,
+    "mb": 6.1
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v02",
+   "n": 2,
+   "section": "start",
+   "icon": "💻",
+   "en": {
+    "title": "Install and first start",
+    "line": "Windows 10 or 11, 64-bit. One setup file, a few clicks.",
+    "dur": 123.9,
+    "mb": 6.9
+   },
+   "gu": {
+    "title": "Install અને પહેલી શરૂઆત",
+    "line": "Windows 10 કે 11, 64-bit. એક setup file, થોડા clicks.",
+    "dur": 145.2,
+    "mb": 7.4
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v03",
+   "n": 3,
+   "section": "switch",
+   "icon": "🔁",
+   "en": {
+    "title": "Switch from Tally in one step",
+    "line": "Masters, vouchers and balances come over. Tally stays as it is.",
+    "dur": 96.9,
+    "mb": 5.0
+   },
+   "gu": {
+    "title": "Tally માંથી એક પગલે Switch",
+    "line": "Masters, vouchers અને balances આવી જાય છે. Tally જેમ છે તેમ રહે છે.",
+    "dur": 125.0,
+    "mb": 5.9
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v04",
+   "n": 4,
+   "section": "switch",
+   "icon": "✅",
+   "en": {
+    "title": "Proof of Match, sync again, Switch Report",
+    "line": "See that every balance matches. Bring the last changes. Keep the report.",
+    "dur": 123.6,
+    "mb": 7.3
+   },
+   "gu": {
+    "title": "Proof of Match, ફરી sync, Switch Report",
+    "line": "દરેક balance મળે છે તે જુઓ. છેલ્લા ફેરફાર લાવો.",
+    "dur": 143.9,
+    "mb": 8.0
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v05",
+   "n": 5,
+   "section": "basics",
+   "icon": "⌨️",
+   "en": {
+    "title": "The Gateway, the keys and Go To",
+    "line": "Where everything is, and the keys that you know already.",
+    "dur": 109.4,
+    "mb": 6.4
+   },
+   "gu": {
+    "title": "Gateway, keys અને Go To",
+    "line": "બધું ક્યાં છે, અને તમે જાણો છો તે keys.",
+    "dur": 132.8,
+    "mb": 6.9
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v06",
+   "n": 6,
+   "section": "basics",
+   "icon": "🏢",
+   "en": {
+    "title": "Create a company",
+    "line": "Name, state, financial year, features (F11) and GST details.",
+    "dur": 120.5,
+    "mb": 6.3
+   },
+   "gu": {
+    "title": "Company બનાવો",
+    "line": "નામ, રાજ્ય, નાણાકીય વર્ષ, features (F11) અને GST details.",
+    "dur": 142.4,
+    "mb": 6.7
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v07",
+   "n": 7,
+   "section": "basics",
+   "icon": "📒",
+   "en": {
+    "title": "Masters: groups and ledgers",
+    "line": "Customer, supplier, bank, sales, purchase and the GST tax ledgers.",
+    "dur": 131.4,
+    "mb": 7.7
+   },
+   "gu": {
+    "title": "Masters: groups અને ledgers",
+    "line": "Customer, supplier, bank, sales, purchase અને GST tax ledgers.",
+    "dur": 148.4,
+    "mb": 8.1
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v08",
+   "n": 8,
+   "section": "basics",
+   "icon": "📦",
+   "en": {
+    "title": "Stock: items, units, godowns",
+    "line": "Unit, stock group, godown, and items with HSN, GST rate and opening stock.",
+    "dur": 120.2,
+    "mb": 6.6
+   },
+   "gu": {
+    "title": "Stock: items, units, godowns",
+    "line": "Unit, stock group, godown, અને HSN, GST rate સાથે items.",
+    "dur": 144.2,
+    "mb": 7.4
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v09",
+   "n": 9,
+   "section": "daily",
+   "icon": "🧾",
+   "en": {
+    "title": "Sales invoice with GST",
+    "line": "Party, items, CGST and SGST, the bill, and print.",
+    "dur": 118.4,
+    "mb": 6.7
+   },
+   "gu": {
+    "title": "GST સાથે sales invoice",
+    "line": "Party, items, CGST અને SGST, bill, અને print.",
+    "dur": 140.9,
+    "mb": 7.4
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v10",
+   "n": 10,
+   "section": "daily",
+   "icon": "🚚",
+   "en": {
+    "title": "Purchase and bills",
+    "line": "A purchase from another state with IGST, a due date, and the open bills.",
+    "dur": 100.1,
+    "mb": 5.4
+   },
+   "gu": {
+    "title": "Purchase અને bills",
+    "line": "બીજા રાજ્યમાંથી IGST સાથે purchase, due date, અને ખુલ્લા bills.",
+    "dur": 124.2,
+    "mb": 6.1
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v11",
+   "n": 11,
+   "section": "daily",
+   "icon": "💸",
+   "en": {
+    "title": "Payment, receipt and contra",
+    "line": "Money out, money in, and money between cash and the bank.",
+    "dur": 129.5,
+    "mb": 6.5
+   },
+   "gu": {
+    "title": "Payment, receipt અને contra",
+    "line": "પૈસા બહાર, પૈસા અંદર, અને cash અને bank વચ્ચે.",
+    "dur": 130.3,
+    "mb": 6.6
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v12",
+   "n": 12,
+   "section": "daily",
+   "icon": "📝",
+   "en": {
+    "title": "Journal, credit note and debit note",
+    "line": "Dr and Cr without cash, and goods that come back.",
+    "dur": 124.7,
+    "mb": 6.8
+   },
+   "gu": {
+    "title": "Journal, credit note અને debit note",
+    "line": "Cash વગર Dr અને Cr, અને પાછો આવેલો માલ.",
+    "dur": 127.2,
+    "mb": 6.8
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v13",
+   "n": 13,
+   "section": "daily",
+   "icon": "🏦",
+   "en": {
+    "title": "Banking: bank reconciliation",
+    "line": "Bank dates from your statement, the balance as per bank, and the cheque register.",
+    "dur": 99.4,
+    "mb": 5.4
+   },
+   "gu": {
+    "title": "Banking: bank reconciliation",
+    "line": "Statement ની bank dates, bank પ્રમાણે balance, cheque register.",
+    "dur": 117.7,
+    "mb": 5.8
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v14",
+   "n": 14,
+   "section": "reports",
+   "icon": "📖",
+   "en": {
+    "title": "Day Book and drill-down",
+    "line": "Each voucher of a day, and from the Balance Sheet down to one voucher.",
+    "dur": 90.2,
+    "mb": 5.2
+   },
+   "gu": {
+    "title": "Day Book અને drill-down",
+    "line": "એક દિવસના vouchers, અને Balance Sheet થી એક voucher સુધી.",
+    "dur": 99.4,
+    "mb": 5.5
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v15",
+   "n": 15,
+   "section": "reports",
+   "icon": "📊",
+   "en": {
+    "title": "Trial Balance, Profit & Loss, Balance Sheet",
+    "line": "The year in four reports, the ratios and the dashboard.",
+    "dur": 115.4,
+    "mb": 6.6
+   },
+   "gu": {
+    "title": "વર્ષના reports",
+    "line": "Trial Balance, Profit & Loss, Balance Sheet, ratios અને dashboard.",
+    "dur": 121.3,
+    "mb": 6.6
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v16",
+   "n": 16,
+   "section": "reports",
+   "icon": "📦",
+   "en": {
+    "title": "Stock Summary and outstandings",
+    "line": "Stock by quantity and value. The bills that wait for money.",
+    "dur": 83.1,
+    "mb": 5.0
+   },
+   "gu": {
+    "title": "Stock Summary અને outstandings",
+    "line": "જથ્થો અને કિંમત પ્રમાણે stock. પૈસાની રાહ જોતા bills.",
+    "dur": 110.4,
+    "mb": 5.8
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v17",
+   "n": 17,
+   "section": "reports",
+   "icon": "🖨️",
+   "en": {
+    "title": "Print, Excel, PDF and share",
+    "line": "Every report and every voucher can leave Hisaab.",
+    "dur": 99.8,
+    "mb": 5.3
+   },
+   "gu": {
+    "title": "Print, Excel, PDF અને share",
+    "line": "દરેક report અને voucher Hisaab ની બહાર જઈ શકે છે.",
+    "dur": 130.0,
+    "mb": 6.1
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v18",
+   "n": 18,
+   "section": "gst",
+   "icon": "🏛️",
+   "en": {
+    "title": "GSTR-1 and GSTR-3B",
+    "line": "The GST returns come from your vouchers.",
+    "dur": 92.8,
+    "mb": 6.3
+   },
+   "gu": {
+    "title": "GSTR-1 અને GSTR-3B",
+    "line": "GST returns તમારા vouchers માંથી આવે છે.",
+    "dur": 126.0,
+    "mb": 7.2
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v19",
+   "n": 19,
+   "section": "gst",
+   "icon": "🧾",
+   "en": {
+    "title": "e-Invoice and e-Way Bill",
+    "line": "Beta: tested with a test copy of the partner.",
+    "dur": 91.7,
+    "mb": 6.5
+   },
+   "gu": {
+    "title": "e-Invoice અને e-Way Bill (Beta)",
+    "line": "Beta: partner ની test copy સાથે ચકાસેલું.",
+    "dur": 120.4,
+    "mb": 7.4
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v20",
+   "n": 20,
+   "section": "gst",
+   "icon": "🧮",
+   "en": {
+    "title": "TDS",
+    "line": "Hisaab deducts the tax at source in the voucher.",
+    "dur": 87.3,
+    "mb": 5.6
+   },
+   "gu": {
+    "title": "TDS",
+    "line": "Hisaab voucher માં જ TDS કાપે છે.",
+    "dur": 106.2,
+    "mb": 6.2
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v21",
+   "n": 21,
+   "section": "gst",
+   "icon": "👥",
+   "en": {
+    "title": "Payroll",
+    "line": "Employees, pay heads, attendance, salary and pay slips.",
+    "dur": 97.1,
+    "mb": 5.8
+   },
+   "gu": {
+    "title": "Payroll",
+    "line": "Employees, pay heads, attendance, salary અને pay slips.",
+    "dur": 116.8,
+    "mb": 6.3
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v22",
+   "n": 22,
+   "section": "safe",
+   "icon": "🛡️",
+   "en": {
+    "title": "Backup, daily backup, restore",
+    "line": "Your books stay safe: on this PC, and outside it.",
+    "dur": 113.8,
+    "mb": 6.5
+   },
+   "gu": {
+    "title": "Backup અને restore",
+    "line": "તમારા ચોપડા સુરક્ષિત: આ PC પર, અને તેની બહાર.",
+    "dur": 140.2,
+    "mb": 7.3
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v23",
+   "n": 23,
+   "section": "safe",
+   "icon": "🔐",
+   "en": {
+    "title": "Users, passwords, security and Edit Log",
+    "line": "A user for each person. Every change is kept.",
+    "dur": 107.5,
+    "mb": 5.9
+   },
+   "gu": {
+    "title": "Users, passwords અને Edit Log",
+    "line": "દરેક વ્યક્તિ માટે એક user. દરેક ફેરફાર સચવાય છે.",
+    "dur": 130.3,
+    "mb": 6.6
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v24",
+   "n": 24,
+   "section": "safe",
+   "icon": "🌐",
+   "en": {
+    "title": "Office network: many PCs, one set of books",
+    "line": "One PC keeps the books. The other PCs open them in a browser.",
+    "dur": 116.4,
+    "mb": 5.7
+   },
+   "gu": {
+    "title": "Office network",
+    "line": "એક PC ચોપડા રાખે છે. બીજા PCs browser માં ખોલે છે.",
+    "dur": 143.6,
+    "mb": 6.5
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v25",
+   "n": 25,
+   "section": "more",
+   "icon": "🔤",
+   "en": {
+    "title": "Screen languages and phonetic typing",
+    "line": "Hindi, Gujarati and more. The keys stay the same.",
+    "dur": 71.4,
+    "mb": 4.0
+   },
+   "gu": {
+    "title": "Screen ની ભાષાઓ અને phonetic typing",
+    "line": "હિન્દી, ગુજરાતી અને વધુ. Keys એ જ રહે છે.",
+    "dur": 92.1,
+    "mb": 4.6
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v26",
+   "n": 26,
+   "section": "more",
+   "icon": "🧾",
+   "en": {
+    "title": "Hisaab Docs: read a bill into a voucher",
+    "line": "A photo or a PDF of a bill becomes a voucher. Hisaab checks the numbers.",
+    "dur": 88.9,
+    "mb": 5.2
+   },
+   "gu": {
+    "title": "Hisaab Docs: bill થી voucher",
+    "line": "Bill નો photo કે PDF voucher બને છે. Hisaab આંકડા ચકાસે છે.",
+    "dur": 108.4,
+    "mb": 5.9
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  },
+  {
+   "id": "v27",
+   "n": 27,
+   "section": "more",
+   "icon": "🛟",
+   "en": {
+    "title": "Help, Support File and updates",
+    "line": "Help on every screen, a file for support, and new versions.",
+    "dur": 91.9,
+    "mb": 5.9
+   },
+   "gu": {
+    "title": "Help, Support File અને updates",
+    "line": "દરેક screen પર help, support માટે file, અને નવી versions.",
+    "dur": 117.0,
+    "mb": 6.7
+   },
+   "langs": [
+    "en",
+    "gu"
+   ]
+  }
+ ]
+}

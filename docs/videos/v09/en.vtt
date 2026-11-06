@@ -1,0 +1,83 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:04.935
+Video nine. A sales invoice with GST, and its
+print.
+
+00:00:05.135 --> 00:00:08.553
+One sales invoice sends each amount to its
+ledger.
+
+00:00:08.483 --> 00:00:12.300
+Sharma Traders owes you ₹53,025.
+
+00:00:12.231 --> 00:00:15.847
+₹50,500 go to the Sales Account.
+
+00:00:15.777 --> 00:00:22.527
+The tax goes to CGST and SGST, half each. Your
+GST return takes it from there.
+
+00:00:22.827 --> 00:00:28.177
+V opens the vouchers. F8 is Sales. It opens in
+Item Invoice mode.
+
+00:00:28.207 --> 00:00:33.956
+Select the party, Sharma Traders, and the
+sales ledger. The place of supply is Gujarat.
+
+00:00:35.702 --> 00:00:39.785
+Type "cotton", and press Enter. Hisaab asks
+for the godown.
+
+00:00:39.815 --> 00:00:44.300
+Ring Road Warehouse: 100 metres, at 180
+rupees.
+
+00:00:45.002 --> 00:00:50.685
+Enter on End of List. The line shows ₹18,000,
+with GST at 5%.
+
+00:00:50.715 --> 00:00:55.998
+Click the next line for the second item: silk,
+50 metres at 650 rupees.
+
+00:00:57.746 --> 00:01:00.896
+Below the items, select the tax ledgers.
+
+00:01:00.926 --> 00:01:08.876
+CGST, then SGST. Hisaab calculates each one:
+₹1,262.50.
+
+00:01:08.906 --> 00:01:15.323
+Type the narration. The total is ₹53,025.
+Hisaab asks: Accept?
+
+00:01:16.403 --> 00:01:22.685
+Y for yes. Now the bill-wise details: a new
+reference, bill 1, due in 30 days.
+
+00:01:22.715 --> 00:01:25.067
+Ctrl+A saves the invoice.
+
+00:01:26.817 --> 00:01:29.300
+Page Up opens the invoice again.
+
+00:01:29.765 --> 00:01:36.917
+Ctrl+P shows the print preview: a tax invoice with both
+GSTINs, the HSN codes, and the amount in words.
+
+00:01:36.947 --> 00:01:44.099
+P prints. In the Windows app, the print window shows a
+preview. Choose the printer there, or Save as PDF.
+
+00:01:44.579 --> 00:01:48.329
+One invoice: ₹53,025.
+
+00:01:48.259 --> 00:01:52.475
+₹2,525 of it is GST.
+
+00:01:52.676 --> 00:01:56.226
+Next: a purchase from another state, and the
+bills.
+

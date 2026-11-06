@@ -1,0 +1,83 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:10.271
+Video 8. Stock: unit, group, godown, અને HSN
+અને GST rate સાથે stock items.
+
+00:00:10.471 --> 00:00:14.390
+Stock item માટે unit અને stock group જોઈએ.
+
+00:00:14.320 --> 00:00:17.541
+Godown બતાવે છે કે stock ક્યાં છે.
+
+00:00:17.471 --> 00:00:26.903
+Item પોતાનો HSN code અને GST rate રાખે છે.
+Stock Summary માં દરેક item દેખાય છે.
+
+00:00:27.203 --> 00:00:33.225
+C દબાવો તો List of Masters ખુલે છે. Inventory
+masters વચ્ચે છે.
+
+00:00:33.255 --> 00:00:41.292
+"unit" લખો, અને Enter દબાવો. Type Simple છે.
+Symbol Mtr, એટલે metres.
+
+00:00:41.991 --> 00:00:49.167
+GST માટે, Unit Quantity Code MTR-METERS. પછી 2
+decimal places.
+
+00:00:49.197 --> 00:00:53.315
+Hisaab પૂછે છે: Accept? Yes માટે Y.
+
+00:00:54.395 --> 00:00:58.728
+Esc, C, અને Stock Group માટે "stock gr" લખો.
+
+00:00:59.428 --> 00:01:05.472
+Group Fabrics છે, Primary નીચે. Ctrl+A થી save
+થાય છે.
+
+00:01:05.502 --> 00:01:11.984
+પછી godown: Ring Road Warehouse. Godown એટલે
+જ્યાં તમે stock રાખો છો.
+
+00:01:12.685 --> 00:01:14.116
+Ctrl+A.
+
+00:01:15.727 --> 00:01:17.390
+હવે stock item.
+
+00:01:19.153 --> 00:01:22.452
+Cotton Fabric, Fabrics નીચે, metres માં.
+
+00:01:24.510 --> 00:01:34.201
+Opening stock: 500 metres, ₹120 ના ભાવે, Ring
+Road Warehouse માં. Hisaab ₹60,000 ગણે છે.
+
+00:01:34.231 --> 00:01:41.043
+GST માટે, HSN code 5208, અને GST rate: 5%.
+
+00:01:42.948 --> 00:01:46.556
+Ctrl+A થી item save થાય છે.
+
+00:01:46.586 --> 00:01:57.211
+બીજી item Silk Fabric છે: 200 metres, ₹450 ના
+ભાવે, HSN 5007, અને એ પણ 5%.
+
+00:01:58.963 --> 00:02:04.181
+Esc, પછી S: Stock Summary. Fabrics: 700
+metres.
+
+00:02:04.211 --> 00:02:10.564
+Enter દબાવો તો દરેક item એના quantity, rate
+અને value સાથે દેખાય છે.
+
+00:02:11.044 --> 00:02:14.277
+Opening stock ની કિંમત ₹1,50,000 છે.
+
+00:02:14.207 --> 00:02:17.498
+એમાંથી Silk Fabric ₹90,000 છે.
+
+00:02:17.699 --> 00:02:23.915
+તમારો stock તૈયાર છે. હવે પછી: GST સાથે sales
+invoice.
+

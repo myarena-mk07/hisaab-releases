@@ -1,0 +1,95 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:05.002
+Video four. The Proof of Match, sync again,
+and the Switch Report.
+
+00:00:05.202 --> 00:00:10.020
+After a switch, Hisaab asks Tally for its own
+reports: ledgers, stock,
+
+00:00:09.670 --> 00:00:14.487
+open bills, the Trial Balance, Profit and
+Loss, and the Balance Sheet.
+
+00:00:14.417 --> 00:00:18.633
+Then it puts each line next to its own figure.
+Equal lines get a tick.
+
+00:00:18.933 --> 00:00:23.951
+You can open the proof at any time. Press
+Alt+G for Go To, and type proof.
+
+00:00:24.933 --> 00:00:28.150
+Press Enter. The Proof of Match opens.
+
+00:00:28.180 --> 00:00:35.332
+The top line sums it up: 44 of 46 lines match. The i means:
+for the other lines, Hisaab found the cause.
+
+00:00:35.362 --> 00:00:40.981
+Each line shows the value in the source books, the
+value in Hisaab, the difference, and a tick.
+
+00:00:42.061 --> 00:00:46.144
+F5 shows only the differences. Here there are
+two lines.
+
+00:00:46.174 --> 00:00:52.391
+The Sales Accounts line differs by ₹4,500. Its
+Match column says: Cause found.
+
+00:00:52.871 --> 00:00:58.221
+Tally's Trial Balance gives the group Sales
+Accounts as ₹1,99,500.
+
+00:00:58.151 --> 00:01:01.962
+But its own ledger lines add up to ₹2,04,000,
+the same as
+
+00:01:01.612 --> 00:01:05.769
+Hisaab. So the gap is inside Tally's report,
+not in your books.
+
+00:01:06.069 --> 00:01:10.621
+F6 accepts the difference. Hisaab fills in the
+cause as the reason.
+
+00:01:12.069 --> 00:01:18.154
+Ctrl+A saves it, and the line shows Accepted. The switch is
+done when each line matches, or is accepted.
+
+00:01:19.234 --> 00:01:24.917
+Some people still enter bills in Tally for a few days.
+Then open Import, Switch from Tally again.
+
+00:01:24.947 --> 00:01:29.898
+Press S to sync again. Only the changes come
+over: here, one new invoice.
+
+00:01:30.947 --> 00:01:33.630
+Then the proof runs again by itself.
+
+00:01:34.710 --> 00:01:39.527
+The Switch Report keeps the facts of the
+switch. In Go To, type switch report.
+
+00:01:39.557 --> 00:01:45.306
+It shows the source, the date, the masters and
+vouchers, the time of each part, and the proof.
+
+00:01:46.057 --> 00:01:48.808
+Each sync again has its own line.
+
+00:01:50.557 --> 00:01:54.466
+The last line lists what does not move: users
+and passwords,
+
+00:01:54.116 --> 00:01:58.108
+the old Edit Log, and print designs. Set them
+again in Hisaab.
+
+00:01:58.588 --> 00:02:02.871
+Your switch is proven. The next video shows
+the Gateway and the keys.
+

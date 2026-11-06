@@ -1,0 +1,87 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:04.733
+Video twenty-two. Backup, daily backup, and
+restore.
+
+00:00:04.933 --> 00:00:08.818
+Your books are on your PC. Hisaab keeps copies
+of them.
+
+00:00:08.748 --> 00:00:12.565
+Every day, Hisaab backs up every company by
+itself.
+
+00:00:12.495 --> 00:00:16.380
+Hisaab Drive puts an encrypted copy outside
+this PC.
+
+00:00:16.310 --> 00:00:19.594
+With a backup, you restore the company at any
+time.
+
+00:00:19.894 --> 00:00:22.911
+The Gateway shows the last backup of the
+company.
+
+00:00:24.394 --> 00:00:28.477
+Alt+Y opens the Data menu. Enter opens Backup
+& Restore.
+
+00:00:28.507 --> 00:00:32.057
+B is Backup. The company is already selected.
+
+00:00:32.087 --> 00:00:37.173
+Ctrl+A, then Enter, takes the backup now. The
+new file is in the list.
+
+00:00:40.137 --> 00:00:46.222
+L opens the Daily Backup. It is on from the first
+day: every day at 13:00, with 7 versions.
+
+00:00:46.252 --> 00:00:50.603
+When the PC is off at that time, the backup
+runs after the next start.
+
+00:00:50.633 --> 00:00:56.050
+F10 shows every backup file. The files of the
+daily backup have Daily in the name.
+
+00:00:57.130 --> 00:01:03.148
+When the PC breaks or is lost, the copy on it
+is lost too. F9 sets up a copy outside.
+
+00:01:03.178 --> 00:01:08.927
+Google Drive or OneDrive: sign in one time. Or
+pick a folder, like a USB disk.
+
+00:01:09.042 --> 00:01:13.859
+Then a backup password. Hisaab encrypts the
+copy before it leaves this PC.
+
+00:01:14.485 --> 00:01:18.970
+Write down the recovery key. It opens the copy
+when the password is lost.
+
+00:01:22.285 --> 00:01:27.236
+Now the company has a copy outside this PC. A
+new copy goes there every day.
+
+00:01:31.135 --> 00:01:35.154
+R restores a backup. Select the file, and
+press Enter.
+
+00:01:35.797 --> 00:01:41.480
+This company is still here. So Hisaab restores the
+backup as a new company, with a new number.
+
+00:01:41.510 --> 00:01:44.861
+Yes loads it. Now both companies are open.
+
+00:01:46.219 --> 00:01:50.036
+Back up every day, and keep one copy outside
+this PC.
+
+00:01:49.966 --> 00:01:53.516
+Next: users, passwords, and the Edit Log.
+

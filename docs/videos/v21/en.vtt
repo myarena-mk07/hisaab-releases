@@ -1,0 +1,64 @@
+WEBVTT
+
+00:00:00.450 --> 00:00:03.133
+Video twenty-one. Payroll.
+
+00:00:03.334 --> 00:00:05.686
+Payroll has five steps.
+
+00:00:05.616 --> 00:00:09.166
+First the masters: the employees and the pay
+heads.
+
+00:00:09.096 --> 00:00:13.514
+Then each month: the attendance, the payroll
+voucher and the pay slips.
+
+00:00:13.814 --> 00:00:19.966
+Alter, Employee, Ramesh Patel. The employee
+has a date of joining and the salary details.
+
+00:00:22.015 --> 00:00:28.765
+The pay heads are the earnings and the deductions: Basic
+Salary, House Rent Allowance, EPF and ESI.
+
+00:00:30.640 --> 00:00:35.726
+Press V, then Ctrl+F4 for payroll, and Ctrl+F5
+for attendance.
+
+00:00:36.427 --> 00:00:41.513
+Ctrl+F opens Attendance Autofill. Select
+Present, and type 26 days.
+
+00:00:42.213 --> 00:00:47.231
+Ctrl+A fills both employees, and Ctrl+A again
+saves the attendance voucher.
+
+00:00:50.783 --> 00:00:57.133
+Ctrl+F4 opens the payroll voucher. Ctrl+F opens
+Payroll Autofill: the salary for October.
+
+00:00:57.534 --> 00:01:04.619
+Ctrl+A computes each employee. Each pay head shows its
+rule: a flat rate, or 12% of the basic for EPF.
+
+00:01:04.649 --> 00:01:07.265
+Ctrl+A saves the payroll voucher.
+
+00:01:08.738 --> 00:01:12.354
+Alt+G, pay slip: the net pay of each employee.
+
+00:01:14.807 --> 00:01:23.690
+Enter shows the pay slip of Ramesh Patel: earnings
+₹21,000, deductions ₹1,913, net pay ₹19,087.
+
+00:01:24.170 --> 00:01:28.920
+Of ₹21,000, Ramesh gets ₹19,087.
+
+00:01:28.850 --> 00:01:33.133
+The EPF and the ESI go to the PF and ESI
+funds.
+
+00:01:33.333 --> 00:01:36.151
+Next video: backup and restore.
+
